@@ -27,14 +27,16 @@
           </div>
         </div>
       </header>
-
-      <div class="landing-section flex flex-center">
-        <q-parallax src="./images/bg-image.png" class="parallax">
-          <h1 class="text-white">Basic</h1>
-        </q-parallax>
-        <div class="">
-          <img src="./images/JME-logo.png" alt="logo" class="landing-logo" />
-          <h1 class="">Jade Metal Enterprise</h1>
+      <div class="sec-1">
+        <div class="landing-container row justify-end">
+          <div class="company-intro col-5 q-pa-xl q-ma-xl flex flex-center">
+            <img src="./images/JME-logo.png" class="logo-image" alt="" />
+            <h3 class="q-ma-sm text-bold">Jade Metal Enterprise</h3>
+            <h6 class="text-content q-ma-none q-pa-none text-center text-bold">
+              Forging Seamless Connectivity: <br />
+              Jade Metal Enterprise - Empowering Telecom Infrastructure
+            </h6>
+          </div>
         </div>
       </div>
     </section>
