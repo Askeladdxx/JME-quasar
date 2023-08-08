@@ -7,11 +7,10 @@
             <img
               src="./images/JME-logo.png"
               alt="logo"
-              class="logo-image q-mr-md"
+              class="logo-image q-my-sm"
             />
-            <label class="logo-name text-bold">Jade Metal Enterprise</label>
           </a>
-          <div class="navbtn-containers">
+          <div class="navbtn-container">
             <q-btn
               v-for="button in navbuttons"
               :key="button.label"
@@ -27,14 +26,14 @@
           </div>
         </div>
       </header>
-      <div class="sec-1 q-pa-md">
+      <div class="sec-1">
         <div class="landing-container row reverse">
           <div class="column justify-center">
-            <div class="company-intro q-pa-md q-ma-xl text-center">
-              <label class="company-name q-ma-sm text-bold"
+            <div class="company-intro q-pa-md q-my-xl text-center">
+              <label class="company-name q-mx-lg text-bold"
                 >JADE METAL ENTERPRISE</label
               >
-              <h4 class="text-content q-ma-none q-pa-none text-bold">
+              <h4 class="text-content q-ma-none q-pa-none">
                 Forging Seamless Connectivity: <br />
                 Jade Metal Enterprise - Empowering Telecom Infrastructure
               </h4>

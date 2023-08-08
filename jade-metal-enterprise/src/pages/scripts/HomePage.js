@@ -1,4 +1,6 @@
 export default {
+  name: "FadeInDemo",
+
   data() {
     return {
       navbuttons: [
