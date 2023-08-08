@@ -1,5 +1,5 @@
 <template>
-  <div class="Home">
+  <div class="about-us">
     <section>
       <header>
         <div class="container">
@@ -27,7 +27,7 @@
           </div>
         </div>
       </header>
-      <div class="sec-1 q-pa-md">
+      <div class="sec-2">
         <div class="landing-container row reverse">
           <div class="column justify-center">
             <div class="company-intro q-pa-md q-ma-xl text-center">
@@ -44,7 +44,7 @@
       </div>
     </section>
     <section>
-      <div class="sec-2"></div>
+      <h1>company</h1>
     </section>
   </div>
 </template>
