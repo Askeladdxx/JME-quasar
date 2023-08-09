@@ -12,9 +12,9 @@ body {
 }
 header {
   background: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
 }
-header .container {
+header .navbar-container {
   max-width: 1400px;
   margin: 0 auto;
   padding: 10px 20px;
@@ -22,15 +22,15 @@ header .container {
   align-items: center;
   justify-content: space-between;
 }
-header .container .logo-container {
+header .navbar-container .logo-container {
   display: flex;
   align-items: center;
 }
-header .container .logo-image {
+header .navbar-container .logo-image {
   height: 70px;
   width: 110px;
 }
-header .container .logo-name {
+header .navbar-container .logo-name {
   font-size: 30px;
 }
 header a {
@@ -60,13 +60,22 @@ section {
   background-image: url(../images/landing4.png);
   background-repeat: no-repeat;
   background-color: #fff;
-
+  margin-top: 1px;
   height: 91.5vh;
 }
 .sec-2 {
   min-height: 100vh;
 }
 
+.nav-btn-group {
+  background-color: green;
+}
+.btn-label {
+  color: black;
+}
+.btn-group-visibility {
+  display: none;
+}
 @media screen and (max-width: 1400px) {
   .sec-1 .landing-container .company-intro {
     background-color: rgba(255, 255, 255, 0.9);
@@ -85,9 +94,50 @@ section {
     flex-direction: column;
   }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 768px) {
+  header .navbar-container .logo-image {
+    height: 60px;
+    width: 100px;
+  }
   .navbtn-container {
+    .nav-btn-group .btngroup-btns {
+    }
+  }
+  .sec-1 {
+    background-size: 50vh;
+  }
+  .sec-1 .landing-container .company-intro {
+    display: flex;
+    margin: 0 auto;
+    .company-name {
+      font-size: 40px;
+    }
+    .text-content {
+      font-size: 20px;
+      line-height: 30px;
+    }
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 696px) {
+  .btn-group-visibility {
+    display: block;
+    .nav-btn-group {
+      height: 60px;
+      width: 70px;
+    }
+  }
+  .navbtn-visibility {
     display: none;
+  }
+  header .navbar-container .logo-image {
+    height: 60px;
+    width: 100px;
+  }
+  .navbtn-container {
+    .nav-btn-group .btngroup-btns {
+    }
   }
   .sec-1 {
     background-size: 50vh;

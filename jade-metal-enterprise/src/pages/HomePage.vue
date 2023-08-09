@@ -2,7 +2,7 @@
   <div class="Home">
     <section>
       <header>
-        <div class="container">
+        <div class="navbar-container">
           <a href="" class="logo-container">
             <img
               src="./images/JME-logo.png"
@@ -11,18 +11,41 @@
             />
           </a>
           <div class="navbtn-container">
-            <q-btn
-              v-for="button in navbuttons"
-              :key="button.label"
-              dense
-              no-caps
-              flat
-              class="btn-navbar q-pa-xs text-bold q-mx-md"
-              size="20px"
-              :to="button.route"
-            >
-              {{ button.label }}
-            </q-btn>
+            <div class="navbtn-visibility">
+              <q-btn
+                v-for="button in navbuttons"
+                :key="button.label"
+                dense
+                no-caps
+                flat
+                class="btn-navbar q-pa-xs text-bold q-mx-md"
+                size="20px"
+                :to="button.route"
+              >
+                {{ button.label }}
+              </q-btn>
+            </div>
+            <div class="btn-group-visibility">
+              <q-btn-dropdown class="nav-btn-group">
+                <q-list>
+                  <q-item
+                    v-for="button in navbuttons"
+                    :key="button.label"
+                    dense
+                    no-caps
+                    flat
+                    class="btn-navbar q-pa-xs text-bold q-mx-md"
+                    :to="button.route"
+                  >
+                    <q-item-section>
+                      <q-item-label class="btn-label text-h5">{{
+                        button.label
+                      }}</q-item-label>
+                    </q-item-section>
+                  </q-item>
+                </q-list>
+              </q-btn-dropdown>
+            </div>
           </div>
         </div>
       </header>
