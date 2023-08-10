@@ -52,6 +52,34 @@ section {
   .company-name {
     font-size: 80px;
   }
+  .text-content {
+    margin: 15px;
+  }
+}
+footer {
+  background-color: #000;
+  .footer-container {
+    background-color: #000;
+
+    margin: 0 auto;
+    padding: 10px 20px;
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .footer-title {
+      display: flex;
+      justify-content: center;
+    }
+    .footer-title h4 {
+      margin-block: 10px;
+      margin-inline: 10px;
+    }
+    .footer-title .footer-logo {
+      height: 40px;
+      width: 70px;
+    }
+  }
 }
 
 .title {
@@ -68,14 +96,31 @@ section {
   height: 86vh;
 }
 .sec-2 {
+  min-height: 200vh;
+  background-color: #06290e;
   .about-us {
     border-radius: 15px;
     .h-title {
-      color: green;
+      color: #fff;
     }
 
-    .text-container {
-      font-size: 30px;
+    .about-container {
+      color: #fff;
+      font-size: 25px;
+      .flex-container {
+        display: flex;
+        align-items: center; /* Vertically center align items */
+      }
+
+      .fImage {
+        max-width: 50%; /* Adjust the width of the image as needed */
+        flex: 0 0 auto; /* Allow image to grow or shrink based on content */
+        margin: 20px; /* Add some spacing between image and text */
+      }
+
+      .flex-container p {
+        flex: 1 1 auto;
+      }
     }
   }
 }
@@ -89,50 +134,84 @@ section {
 .btn-group-visibility {
   display: none;
 }
+
+.sec-3 {
+  .mission-vision .mission h1,
+  .mission-vision .vision h1 {
+    margin-block: 20px;
+  }
+  .mission-vision .mission p,
+  .mission-vision .vision p {
+    font-size: 30px;
+    text-align: justify;
+  }
+}
+.sec-4 {
+  background-color: #900c3f;
+  min-height: 100vh;
+  color: #fff;
+  .products {
+    .product-container {
+      border-radius: 20px;
+      flex-direction: row;
+      margin: 20px;
+      border-radius: 30px;
+      margin: 0 auto;
+
+      .product-card {
+        background-color: #900c3f;
+        .card-name h4 {
+          margin: auto;
+        }
+      }
+      .card-image {
+        border-radius: 40px;
+        width: 500px;
+        height: 500px;
+      }
+    }
+  }
+}
 @media screen and (max-width: 1400px) {
   .sec-1 .landing-container .company-intro {
     background-color: rgba(255, 255, 255, 0.9);
     color: #000;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1043px) {
   .sec-1 .landing-container .company-intro {
-    display: flex;
     .company-name {
-      font-size: 50px;
+      font-size: 55px;
+      display: block;
     }
-    .text-content {
-      font-size: 30px;
-    }
-    flex-direction: column;
   }
 }
+
 @media screen and (max-width: 768px) {
-  header .navbar-container .logo-image {
-    height: 60px;
-    width: 100px;
-  }
-
   .sec-1 .landing-container .company-intro {
-    display: flex;
-    margin: 0 auto;
-    .company-name {
-      font-size: 40px;
-    }
-    .text-content {
-      font-size: 20px;
-      line-height: 30px;
-    }
-    flex-direction: column;
   }
-}
-
-@media screen and (max-width: 696px) {
+  .sec-2 {
+    .about-us {
+      .h-title {
+        font-size: 40px;
+      }
+      .w-title {
+        font-size: 20px;
+      }
+      .about-container {
+        font-size: 20px;
+        .flex-container {
+          display: flex;
+          flex-direction: column; /* Vertically center align items */
+        }
+      }
+    }
+  }
   .btn-group-visibility {
     display: block;
     .nav-btn-group {
       height: 60px;
-      width: 70px;
+      width: 80px;
     }
   }
   .navbtn-visibility {
@@ -143,9 +222,6 @@ section {
     width: 100px;
   }
 
-  .sec-1 {
-    background-size: 50vh;
-  }
   .sec-1 .landing-container .company-intro {
     display: flex;
     margin: 0 auto;
@@ -157,5 +233,59 @@ section {
       line-height: 30px;
     }
     flex-direction: column;
+  }
+  .sec-3 {
+    .mission-vision {
+      .mission h1 {
+        font-size: 60px;
+        text-align: center;
+        margin: 10px;
+      }
+      .mission p {
+        text-align: justify;
+        font-size: 20px;
+      }
+      .vision h1 {
+        font-size: 60px;
+        text-align: center;
+        margin: 10px;
+      }
+      .vision p {
+        font-size: 20px;
+      }
+    }
+  }
+  .sec-4 {
+    .products h1 {
+      font-size: 40px;
+    }
+    .products {
+      .product-container {
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .sec-2 {
+    .about-us {
+      .about-container {
+        font-size: 15px;
+      }
+    }
+  }
+}
+.sec-3 {
+  .mission-vision {
+    .mission {
+      .mission p {
+        font-size: 15px;
+      }
+    }
+    .vision {
+      .vision p {
+        font-size: 15px;
+      }
+    }
   }
 }
