@@ -49,7 +49,7 @@
           </div>
         </div>
       </header>
-      <div class="sec-1">
+      <div class="sec-1 q-pa-md">
         <div class="landing-container row reverse">
           <div class="column justify-center">
             <div class="company-intro q-pa-md q-my-xl text-center">
@@ -68,45 +68,27 @@
     <section>
       <div class="sec-2 q-pa-md">
         <div class="about-us q-pa-md q-ma-md">
-          <h1 class="q-pa-md q-mt-md text-bold">About us</h1>
+          <h1 class="q-pa-md q-mt-md text-bold h-title">About us</h1>
           <div class="q-ma-md text-center">
             <h4 class="text-bold">
               Welcome to Jade Metal Enterprise - Your Trusted Partner in Telecom
               Metalworks!
             </h4>
           </div>
-          <div class="q-pa-md">
-            <q-carousel arrows animated v-model="slide" height="400px">
-              <q-carousel-slide
-                name="first"
-                img-src="https://cdn.quasar.dev/img/mountains.jpg"
-              >
-              </q-carousel-slide>
-              <q-carousel-slide
-                name="second"
-                img-src="https://cdn.quasar.dev/img/parallax1.jpg"
-              >
-              </q-carousel-slide>
-              <q-carousel-slide
-                name="third"
-                img-src="https://cdn.quasar.dev/img/parallax2.jpg"
-              >
-              </q-carousel-slide>
-            </q-carousel>
-            <div class="text-container q-pa-md">
-              <p>
-                Founded in 2019, Jade Metal Enterprise is a dynamic family-owned
-                business that supplies quality metalworks and essential tools
-                for the telecom industry. Our passion and commitment to
-                excellence have allowed us to quickly establish ourselves as a
-                reliable player in the telecom supply market. At Jade Metal
-                Enterprise, we understand the critical role that telecom
-                infrastructure plays in connecting communities and driving
-                progress. Our mission is to provide telecom companies, including
-                industry giants like PLDT, Globe, and Fibr, with the high-grade
-                materials they need to build and maintain robust networks.
-              </p>
-            </div>
+
+          <div class="text-container q-pa-md q-ma-xl">
+            <p>
+              Founded in 2019, Jade Metal Enterprise is a dynamic family-owned
+              business that supplies quality metalworks and essential tools for
+              the telecom industry. Our passion and commitment to excellence
+              have allowed us to quickly establish ourselves as a reliable
+              player in the telecom supply market. At Jade Metal Enterprise, we
+              understand the critical role that telecom infrastructure plays in
+              connecting communities and driving progress. Our mission is to
+              provide telecom companies, including industry giants like PLDT,
+              Globe, and Fibr, with the high-grade materials they need to build
+              and maintain robust networks.
+            </p>
           </div>
         </div>
       </div>

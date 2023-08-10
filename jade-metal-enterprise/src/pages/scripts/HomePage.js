@@ -2,8 +2,6 @@ import { ref } from "vue";
 
 export default {
   setup() {
-    const slide = ref("first");
-
     const navbuttons = [
       { label: "Home", route: "/" },
       { label: "Mission & Vision", route: "/mission-vision" },
@@ -12,7 +10,6 @@ export default {
     ];
 
     return {
-      slide,
       navbuttons,
     };
   },
