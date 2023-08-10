@@ -1,13 +1,16 @@
 /* google font */
 @import url("https://fonts.googleapis.com/css2?family=Lora&family=Newsreader:opsz,wght@6..72,300&family=Poppins:wght@200;500&family=Signika+Negative:wght@700&display=swap");
 /* layout */
+section {
+  min-height: 100vh;
+}
 :root {
   --primary: #1aac83;
   --error: #e7195a;
 }
 body {
-  background: #f1f1f1;
-  margin: 0;
+  background: #fff;
+
   font-family: "Lora";
 }
 header {
@@ -59,12 +62,20 @@ section {
 .sec-1 {
   background-image: url(../images/landing4.png);
   background-repeat: no-repeat;
-  background-color: #fff;
   margin-top: 1px;
-  height: 91.5vh;
+}
+.sec-1 .landing-container {
+  height: 91.2vh;
 }
 .sec-2 {
-  min-height: 100vh;
+  background-color: #557153;
+  .about-us {
+    background-color: #c1d5a4;
+    border-radius: 15px;
+    .text-container {
+      font-size: 20px;
+    }
+  }
 }
 
 .nav-btn-group {
@@ -99,13 +110,7 @@ section {
     height: 60px;
     width: 100px;
   }
-  .navbtn-container {
-    .nav-btn-group .btngroup-btns {
-    }
-  }
-  .sec-1 {
-    background-size: 50vh;
-  }
+
   .sec-1 .landing-container .company-intro {
     display: flex;
     margin: 0 auto;
@@ -135,10 +140,7 @@ section {
     height: 60px;
     width: 100px;
   }
-  .navbtn-container {
-    .nav-btn-group .btngroup-btns {
-    }
-  }
+
   .sec-1 {
     background-size: 50vh;
   }

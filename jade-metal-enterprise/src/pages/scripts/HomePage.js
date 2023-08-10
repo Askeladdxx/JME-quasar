@@ -1,14 +1,19 @@
-export default {
-  name: "FadeInDemo",
+import { ref } from "vue";
 
-  data() {
+export default {
+  setup() {
+    const slide = ref("first");
+
+    const navbuttons = [
+      { label: "Home", route: "/" },
+      { label: "Mission & Vision", route: "/mission-vision" },
+      { label: "Products", route: "/products" },
+      { label: "Contact Us", route: "/contact-us" },
+    ];
+
     return {
-      navbuttons: [
-        { label: "Home", route: "/" },
-        { label: "Mission & Vision", route: "/mission-vision" },
-        { label: "Products", route: "/products" },
-        { label: "Contact Us", route: "/contact-us" },
-      ],
+      slide,
+      navbuttons,
     };
   },
 };
