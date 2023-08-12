@@ -59,21 +59,19 @@
           </div>
         </header>
         <div
-          class="landing-container row reverse"
+          class="landing-container"
           style="text-align: center; display: inline block"
         >
-          <div class="column justify-center">
-            <div class="company-intro">
-              <label class="company-name text-center text-bold"
-                ><span class="text-green">JADE </span
-                ><span class="text-white">METAL </span>
-                <span class="text-red">ENTERPRISE</span></label
-              >
-              <h4 class="text-content text-bold text-center text-white">
-                Forging Seamless Connectivity: <br />
-                Jade Metal Enterprise - Empowering Telecom Infrastructure
-              </h4>
-            </div>
+          <div class="company-intro">
+            <label class="company-name text-center text-bold"
+              ><span class="text-green">JADE </span
+              ><span class="text-white">METAL </span>
+              <span class="text-red">ENTERPRISE</span></label
+            >
+            <h4 class="text-content text-bold text-center text-white">
+              Forging Seamless Connectivity: <br />
+              Jade Metal Enterprise - Empowering Telecom Infrastructure
+            </h4>
           </div>
         </div>
       </div>
