@@ -96,7 +96,7 @@
               </div>
             </div>
             <div class="flex-container-two text-justify">
-              <p class="q-pa-md q-mx-xl">
+              <p class="q-pa-md">
                 Customer satisfaction lies at the heart of our business
                 philosophy. We believe in fostering strong relationships with
                 our clients and working closely with them to understand their
@@ -106,7 +106,7 @@
               </p>
             </div>
             <div class="flex-container-three text-justify">
-              <p class="q-pa-md q-mx-xl">
+              <p class="q-pa-md">
                 We look forward to serving our clients with the same passion and
                 dedication that defines Jade Metal Enterprise.
                 <br />
@@ -122,9 +122,9 @@
     <section>
       <div class="sec-3">
         <div class="mission-vision q-pa-md">
-          <div class="mission q-pa-md">
-            <h1 class="text-bold q-mx-xl">Mission</h1>
-            <p class="q-mx-xl">
+          <div class="mission q-ma-md q-pa-md">
+            <h1 class="text-bold">Mission</h1>
+            <p>
               Our mission at Jade Metal Enterprise is to empower the telecom
               industry with top-quality metalworks and essential supplies,
               facilitating seamless connectivity and fostering progress. Through
@@ -135,9 +135,9 @@
             </p>
           </div>
 
-          <div class="vision q-pa-md">
-            <h1 class="text-bold q-mx-xl">Vision</h1>
-            <p class="q-mx-xl">
+          <div class="vision q-ma-md q-pa-md">
+            <h1 class="text-bold">Vision</h1>
+            <p>
               At Jade Metal Enterprise, our vision is to be the leading provider
               of telecom metalworks and supplies, setting new industry
               benchmarks for quality and service. We aspire to continuously
@@ -153,8 +153,8 @@
       </div>
     </section>
     <section>
-      <div class="sec-4 q-pa-md">
-        <div class="products">
+      <div class="sec-4">
+        <div class="products q-pa-md">
           <h1 class="text-bold text-center">Products</h1>
           <div class="product-container flex flex-center justify-evenly">
             <q-card
