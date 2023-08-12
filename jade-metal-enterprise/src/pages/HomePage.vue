@@ -66,12 +66,14 @@
       </div>
     </section>
     <section>
-      <div class="sec-2">
+      <div class="sec-2 q-pa-md">
         <div class="about-us">
           <div class="about-container">
-            <div class="flex-container-one">
+            <div class="flex-container-one q-mx-md q-my-lg">
               <div class="about-text-container">
-                <h1 class="q-my-xs text-bold h-title text-center q-mx-md">
+                <h1
+                  class="q-my-xs text-bold h-title text-center q-mx-md q-my-lg"
+                >
                   About us
                 </h1>
                 <h4 class="text-bold w-title text-white text-center q-my-sm">
@@ -95,8 +97,8 @@
                 </p>
               </div>
             </div>
-            <div class="flex-container-two text-justify">
-              <p class="q-pa-md text-justify q-pa-md q-mx-xl">
+            <div class="flex-container-two text-justify q-mx-md q-my-lg">
+              <p class="q-pa-md text-justify q-mx-xl">
                 Customer satisfaction lies at the heart of our business
                 philosophy. We believe in fostering strong relationships with
                 our clients and working closely with them to understand their
@@ -105,14 +107,12 @@
                 ensuring successful and efficient outcomes.
               </p>
             </div>
-            <div class="flex-container-three text-justify">
+            <div class="flex-container-three text-justify q-mx-md q-my-lg">
               <p class="q-pa-md q-mx-xl text-justify">
                 We look forward to serving our clients with the same passion and
-                dedication that defines Jade Metal Enterprise.
-                <br />
-                Thank you for choosing Jade Metal Enterprise as your telecom
-                supply partner. Let's build a connected and prosperous future
-                together!
+                dedication that defines Jade Metal Enterprise. Thank you for
+                choosing Jade Metal Enterprise as your telecom supply partner.
+                Let's build a connected and prosperous future together!
               </p>
             </div>
           </div>
@@ -155,19 +155,19 @@
     <section>
       <div class="sec-4">
         <div class="products q-pa-md">
-          <h1 class="text-bold text-center">Products</h1>
+          <h2 class="text-bold text-center">Products</h2>
           <div class="product-container flex flex-center justify-evenly">
             <q-card
               v-for="card in productCards"
               :key="card.id"
               flat
-              class="product-card q-mb-md text-center"
+              class="product-card q-mb-lg text-center q-ma-none"
             >
               <q-card-section>
                 <q-img class="card-image" :src="card.image" />
               </q-card-section>
               <q-card-title class="card-name">
-                <h5 class="text-bold">
+                <h5 class="text-bold q-py-none q-my-md text-center">
                   {{ card.name }}
                 </h5>
               </q-card-title>
