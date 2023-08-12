@@ -141,17 +141,9 @@ footer {
         background-position: center center;
         height: 100vh;
       }
-      .flex-container-three {
-        position: relative;
-        background-image: url(https://images.pexels.com/photos/13423531/pexels-photo-13423531.jpeg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        height: 100vh;
-      }
+
       .about-text-container p,
-      .flex-container-two p,
-      .flex-container-three p {
+      .flex-container-two p {
         font-size: 27px;
         color: #fff;
       }
@@ -161,11 +153,23 @@ footer {
   .about-container {
     color: #fff;
     font-size: 30px;
-    .flex-container-one,
-    .flex-container-two,
-    .flex-container-three {
+    .flex-container-one .about-text-container h5,
+    h1,
+    p {
       display: flex;
-      align-items: center; /* Vertically center align items */
+      justify-content: flex-end;
+      align-items: center;
+      margin-right: 30px;
+      max-width: 1000px;
+      margin-left: auto;
+    }
+    .flex-container-one .about-text-container p {
+    }
+
+    .flex-container-two {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
     }
 
     .fImage-lg {
@@ -225,9 +229,8 @@ footer {
 }
 .sec-4 {
   position: relative;
-  background-color: rgb(82, 3, 3);
   min-height: 100vh;
-  color: #fff;
+
   .products {
     .product-container {
       border-radius: 20px;
@@ -250,10 +253,6 @@ footer {
 }
 
 @media screen and (max-width: 1400px) {
-  .sec-1 .landing-container .company-intro {
-    background-color: rgba(255, 255, 255, 0.9);
-    color: #000;
-  }
 }
 @media screen and (max-width: 1200px) {
   .sec-1 .landing-container .company-intro {
@@ -267,8 +266,7 @@ footer {
       .about-container {
         font-size: 15px;
         .about-text-container p,
-        .flex-container-two p,
-        .flex-container-three p {
+        .flex-container-two p {
           font-size: 20px;
         }
 
@@ -294,8 +292,7 @@ footer {
       .about-container {
         font-size: 15px;
         .about-text-container p,
-        .flex-container-two p,
-        .flex-container-three p {
+        .flex-container-two p {
           font-size: 20px;
         }
 
@@ -326,8 +323,7 @@ footer {
       .about-container {
         font-size: 15px;
         .about-text-container p,
-        .flex-container-two p,
-        .flex-container-three p {
+        .flex-container-two p {
           font-size: 18px;
         }
 
@@ -426,8 +422,7 @@ footer {
       .about-container {
         font-size: 15px;
         .about-text-container p,
-        .flex-container-two p,
-        .flex-container-three p {
+        .flex-container-two p {
           font-size: 15px;
         }
 

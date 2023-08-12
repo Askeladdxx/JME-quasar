@@ -81,17 +81,15 @@
         <div class="about-us">
           <div class="about-container">
             <div class="flex-container-one">
-              <div class="about-text-container">
-                <h1 class="text-bold h-title text-center q-mx-md q-my-md">
+              <div class="about-text-container q-pa-lg">
+                <h1 class="text-bold h-title text-center q-my-none">
                   About us
                 </h1>
-                <h4 class="text-bold w-title text-white text-center q-my-sm">
-                  Welcome to <span class="text-green-10">Jade </span>
-                  <span class="text-white">Metal </span
-                  ><span class="text-red-5">Enterprise </span>- Your Trusted
-                  Partner in Telecom Metalworks!
-                </h4>
-                <p class="text-justify q-pa-md q-mx-lg">
+                <h5 class="text-bold w-title text-white">
+                  Welcome to Jade Metal Enterprise - Your Trusted Partner in
+                  Telecom Metalworks!
+                </h5>
+                <p class="text-justify">
                   Founded in 2019, Jade Metal Enterprise is a dynamic
                   family-owned business that supplies quality metalworks and
                   essential tools for the telecom industry. Our passion and
@@ -113,15 +111,11 @@
                 our clients and working closely with them to understand their
                 unique requirements. This collaborative approach allows us to
                 tailor solutions that precisely fit their project needs,
-                ensuring successful and efficient outcomes.
-              </p>
-            </div>
-            <div class="flex-container-three text-justify">
-              <p class="q-pa-md q-mx-xl text-justify">
-                We look forward to serving our clients with the same passion and
-                dedication that defines Jade Metal Enterprise. Thank you for
-                choosing Jade Metal Enterprise as your telecom supply partner.
-                Let's build a connected and prosperous future together!
+                ensuring successful and efficient outcomes. We look forward to
+                serving our clients with the same passion and dedication that
+                defines Jade Metal Enterprise. Thank you for choosing Jade Metal
+                Enterprise as your telecom supply partner. Let's build a
+                connected and prosperous future together!
               </p>
             </div>
           </div>
@@ -164,7 +158,7 @@
     <section>
       <div class="sec-4">
         <div class="products q-pa-md">
-          <h2 class="text-bold text-center">Products</h2>
+          <h2 class="text-bold text-center text-red-10">Products</h2>
           <div class="product-container flex flex-center justify-evenly">
             <q-card
               v-for="card in productCards"
@@ -176,7 +170,7 @@
                 <q-img class="card-image" :src="card.image" />
               </q-card-section>
               <q-card-title class="card-name">
-                <h5 class="text-bold q-py-none q-my-md text-center">
+                <h5 class="text-bold q-py-none q-my-md text-center text-white">
                   {{ card.name }}
                 </h5>
               </q-card-title>
