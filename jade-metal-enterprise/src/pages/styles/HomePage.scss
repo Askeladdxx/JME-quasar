@@ -337,16 +337,18 @@ footer {
     }
     .sec-4 {
       .products h1 {
-        font-size: 40px;
+        font-size: 60px;
       }
       .products {
-        .product-container .product-card {
-          .card-image {
-            height: 300px;
-            width: 300px;
-          }
-          .card-name h4 {
-            font-size: 20px;
+        .product-container {
+          .product-card {
+            .card-image {
+              height: 150px;
+              width: 150px;
+            }
+            .card-name h5 {
+              font-size: 15px;
+            }
           }
         }
       }

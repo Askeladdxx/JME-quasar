@@ -73,7 +73,7 @@ export default {
         {
           id: 10,
           image: "https://astmbolts.com/img/images/machine-bolts.jpg",
-          name: 'Machine Bolt 5/8x4" - 5/8x8"',
+          name: "Machine Bolt ",
         },
         {
           id: 11,
