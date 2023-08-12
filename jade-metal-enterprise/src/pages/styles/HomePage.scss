@@ -91,12 +91,10 @@ footer {
 .sec-1 {
   background-image: url(../images/landing4.png);
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
   margin-top: 1px;
 }
 .sec-1 .landing-container {
-  height: 86vh;
+  height: 85vh;
 }
 .sec-2 {
   min-height: 100vh;
@@ -136,7 +134,7 @@ footer {
       .about-text-container p,
       .flex-container-two p,
       .flex-container-three p {
-        font-size: 30px;
+        font-size: 27px;
         color: #fff;
       }
     }

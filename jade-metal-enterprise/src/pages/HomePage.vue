@@ -71,15 +71,15 @@
           <div class="about-container">
             <div class="flex-container-one">
               <div class="about-text-container">
-                <h2 class="q-my-xs text-bold h-title text-center q-mx-md">
+                <h1 class="q-my-xs text-bold h-title text-center q-mx-md">
                   About us
-                </h2>
-                <h6 class="text-bold w-title text-white text-center q-my-sm">
-                  Welcome to <span class="text-green-4">Jade </span>
+                </h1>
+                <h4 class="text-bold w-title text-white text-center q-my-sm">
+                  Welcome to <span class="text-green-10">Jade </span>
                   <span class="text-white">Metal </span
                   ><span class="text-red-5">Enterprise </span>- Your Trusted
                   Partner in Telecom Metalworks!
-                </h6>
+                </h4>
                 <p class="text-justify q-pa-md q-mx-xl">
                   Founded in 2019, Jade Metal Enterprise is a dynamic
                   family-owned business that supplies quality metalworks and
@@ -96,7 +96,7 @@
               </div>
             </div>
             <div class="flex-container-two text-justify">
-              <p class="q-pa-md">
+              <p class="q-pa-md text-justify q-pa-md q-mx-xl">
                 Customer satisfaction lies at the heart of our business
                 philosophy. We believe in fostering strong relationships with
                 our clients and working closely with them to understand their
@@ -106,7 +106,7 @@
               </p>
             </div>
             <div class="flex-container-three text-justify">
-              <p class="q-pa-md">
+              <p class="q-pa-md q-mx-xl text-justify">
                 We look forward to serving our clients with the same passion and
                 dedication that defines Jade Metal Enterprise.
                 <br />
