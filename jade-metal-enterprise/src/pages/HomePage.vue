@@ -56,7 +56,7 @@
               <label class="company-name text-center text-bold"
                 >JADE METAL ENTERPRISE</label
               >
-              <h4 class="text-content text-center">
+              <h4 class="text-content text-bold text-center">
                 Forging Seamless Connectivity: <br />
                 Jade Metal Enterprise - Empowering Telecom Infrastructure
               </h4>
@@ -66,39 +66,37 @@
       </div>
     </section>
     <section>
-      <div class="sec-2 q-pa-md">
-        <div class="about-us q-pa-md">
-          <h1 class="q-pa-md q-mt-md text-bold h-title text-center">
-            About us
-          </h1>
-          <div class="text-center">
-            <h4 class="text-bold w-title text-white">
-              Welcome to Jade Metal Enterprise - Your Trusted Partner in Telecom
-              Metalworks!
-            </h4>
-          </div>
-
-          <div class="about-container text-justify">
-            <div class="flex-container">
-              <img
-                src="https://images.pexels.com/photos/73833/weld-hot-soldering-radio-welder-73833.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                class="fImage"
-              />
-              <p>
-                Founded in 2019, Jade Metal Enterprise is a dynamic family-owned
-                business that supplies quality metalworks and essential tools
-                for the telecom industry. Our passion and commitment to
-                excellence have allowed us to quickly establish ourselves as a
-                reliable player in the telecom supply market. At Jade Metal
-                Enterprise, we understand the critical role that telecom
-                infrastructure plays in connecting communities and driving
-                progress. Our mission is to provide telecom companies, including
-                industry giants like PLDT, Globe, and Fibr, with the high-grade
-                materials they need to build and maintain robust networks.
-              </p>
+      <div class="sec-2">
+        <div class="about-us">
+          <div class="about-container">
+            <div class="flex-container-one">
+              <div class="about-text-container">
+                <h2 class="q-my-xs text-bold h-title text-center q-mx-md">
+                  About us
+                </h2>
+                <h6 class="text-bold w-title text-white text-center q-my-sm">
+                  Welcome to <span class="text-green-4">Jade </span>
+                  <span class="text-white">Metal </span
+                  ><span class="text-red-5">Enterprise </span>- Your Trusted
+                  Partner in Telecom Metalworks!
+                </h6>
+                <p class="text-justify q-pa-md q-mx-xl">
+                  Founded in 2019, Jade Metal Enterprise is a dynamic
+                  family-owned business that supplies quality metalworks and
+                  essential tools for the telecom industry. Our passion and
+                  commitment to excellence have allowed us to quickly establish
+                  ourselves as a reliable player in the telecom supply market.
+                  At Jade Metal Enterprise, we understand the critical role that
+                  telecom infrastructure plays in connecting communities and
+                  driving progress. Our mission is to provide telecom companies,
+                  including industry giants like PLDT, Globe, and Fibr, with the
+                  high-grade materials they need to build and maintain robust
+                  networks.
+                </p>
+              </div>
             </div>
-            <div class="flex-container">
-              <p>
+            <div class="flex-container-two text-justify">
+              <p class="q-pa-md q-mx-xl">
                 Customer satisfaction lies at the heart of our business
                 philosophy. We believe in fostering strong relationships with
                 our clients and working closely with them to understand their
@@ -106,17 +104,9 @@
                 tailor solutions that precisely fit their project needs,
                 ensuring successful and efficient outcomes.
               </p>
-              <img
-                src="https://images.pexels.com/photos/210158/pexels-photo-210158.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                class="fImage"
-              />
             </div>
-            <div class="flex-container">
-              <img
-                src="https://images.pexels.com/photos/210158/pexels-photo-210158.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                class="fImage"
-              />
-              <p>
+            <div class="flex-container-three text-justify">
+              <p class="q-pa-md q-mx-xl">
                 We look forward to serving our clients with the same passion and
                 dedication that defines Jade Metal Enterprise.
                 <br />
@@ -130,11 +120,11 @@
       </div>
     </section>
     <section>
-      <div class="sec-3 q-pa-md">
-        <div class="mission-vision">
+      <div class="sec-3">
+        <div class="mission-vision q-pa-md">
           <div class="mission q-pa-md">
-            <h1 class="q-pa-md text-green-8 text-bold">Mission</h1>
-            <p class="q-pa-md">
+            <h1 class="text-bold q-mx-xl">Mission</h1>
+            <p class="q-mx-xl">
               Our mission at Jade Metal Enterprise is to empower the telecom
               industry with top-quality metalworks and essential supplies,
               facilitating seamless connectivity and fostering progress. Through
@@ -146,8 +136,8 @@
           </div>
 
           <div class="vision q-pa-md">
-            <h1 class="text-red-8 q-pa-md text-bold">Vision</h1>
-            <p class="q-pa-md">
+            <h1 class="text-bold q-mx-xl">Vision</h1>
+            <p class="q-mx-xl">
               At Jade Metal Enterprise, our vision is to be the leading provider
               of telecom metalworks and supplies, setting new industry
               benchmarks for quality and service. We aspire to continuously
@@ -166,23 +156,20 @@
       <div class="sec-4 q-pa-md">
         <div class="products">
           <h1 class="text-bold text-center">Products</h1>
-
-          <div
-            class="product-container flex flex-center justify-evenly q-ma-md q-pa-md"
-          >
+          <div class="product-container flex flex-center justify-evenly">
             <q-card
               v-for="card in productCards"
               :key="card.id"
               flat
-              class="product-card q-mb-lg text-center"
+              class="product-card q-mb-md text-center"
             >
               <q-card-section>
                 <q-img class="card-image" :src="card.image" />
               </q-card-section>
-              <q-card-title class="card-name text-white q-pa-md">
-                <h4 class="q-py-none text-bold">
+              <q-card-title class="card-name">
+                <h5 class="text-bold">
                   {{ card.name }}
-                </h4>
+                </h5>
               </q-card-title>
             </q-card>
           </div>
