@@ -1,62 +1,75 @@
 <template>
   <div class="Home">
     <section>
-      <header>
-        <div class="navbar-container">
-          <a href="" class="logo-container">
-            <img
-              src="./images/JME-logo.png"
-              alt="logo"
-              class="logo-image q-my-sm"
-            />
-          </a>
-          <div class="navbtn-container">
-            <div class="navbtn-visibility">
-              <q-btn
-                v-for="button in navbuttons"
-                :key="button.label"
-                dense
-                no-caps
-                flat
-                class="btn-navbar q-pa-xs text-bold q-mx-md"
-                size="20px"
-                :to="button.route"
-              >
-                {{ button.label }}
-              </q-btn>
-            </div>
-            <div class="btn-group-visibility">
-              <q-btn-dropdown class="nav-btn-group">
-                <q-list>
-                  <q-item
-                    v-for="button in navbuttons"
-                    :key="button.label"
-                    dense
-                    no-caps
-                    flat
-                    class="btn-navbar q-pa-xs text-bold q-mx-md"
-                    :to="button.route"
-                  >
-                    <q-item-section>
-                      <q-item-label class="btn-label text-h5">{{
-                        button.label
-                      }}</q-item-label>
-                    </q-item-section>
-                  </q-item>
-                </q-list>
-              </q-btn-dropdown>
+      <div class="sec-1">
+        <video
+          src="./videos/background.mp4"
+          type="video/mp4"
+          autoplay
+          muted
+          loop
+          class="background-video"
+        ></video>
+        <header>
+          <div class="navbar-container">
+            <a href="" class="logo-container">
+              <img
+                src="./images/JME-logo.png"
+                alt="logo"
+                class="logo-image q-my-sm"
+              />
+            </a>
+            <div class="navbtn-container">
+              <div class="navbtn-visibility">
+                <q-btn
+                  v-for="button in navbuttons"
+                  :key="button.label"
+                  dense
+                  no-caps
+                  flat
+                  class="btn-navbar q-pa-xs text-bold q-mx-md"
+                  size="20px"
+                  :to="button.route"
+                >
+                  {{ button.label }}
+                </q-btn>
+              </div>
+              <div class="btn-group-visibility">
+                <q-btn-dropdown class="nav-btn-group">
+                  <q-list>
+                    <q-item
+                      v-for="button in navbuttons"
+                      :key="button.label"
+                      dense
+                      no-caps
+                      flat
+                      class="btn-navbar q-pa-xs text-bold q-mx-md"
+                      :to="button.route"
+                    >
+                      <q-item-section>
+                        <q-item-label class="btn-label text-h5">{{
+                          button.label
+                        }}</q-item-label>
+                      </q-item-section>
+                    </q-item>
+                  </q-list>
+                </q-btn-dropdown>
+              </div>
             </div>
           </div>
-        </div>
-      </header>
-      <div class="sec-1 q-pa-md">
-        <div class="landing-container row reverse">
+        </header>
+        <div
+          class="landing-container row reverse"
+          style="text-align: center; display: inline block"
+        >
           <div class="column justify-center">
-            <div class="company-intro q-pa-md">
+            <div class="company-intro">
               <label class="company-name text-center text-bold"
-                >JADE METAL ENTERPRISE</label
+                ><span class="text-green">JADE </span
+                ><span class="text-white">METAL </span>
+                <span class="text-red">ENTERPRISE</span></label
               >
-              <h4 class="text-content text-bold text-center">
+              <h4 class="text-content text-bold text-center text-white">
                 Forging Seamless Connectivity: <br />
                 Jade Metal Enterprise - Empowering Telecom Infrastructure
               </h4>
@@ -66,14 +79,12 @@
       </div>
     </section>
     <section>
-      <div class="sec-2 q-pa-md">
+      <div class="sec-2">
         <div class="about-us">
           <div class="about-container">
-            <div class="flex-container-one q-mx-md q-my-lg">
+            <div class="flex-container-one">
               <div class="about-text-container">
-                <h1
-                  class="q-my-xs text-bold h-title text-center q-mx-md q-my-lg"
-                >
+                <h1 class="text-bold h-title text-center q-mx-md q-my-md">
                   About us
                 </h1>
                 <h4 class="text-bold w-title text-white text-center q-my-sm">
@@ -82,7 +93,7 @@
                   ><span class="text-red-5">Enterprise </span>- Your Trusted
                   Partner in Telecom Metalworks!
                 </h4>
-                <p class="text-justify q-pa-md q-mx-xl">
+                <p class="text-justify q-pa-md q-mx-lg">
                   Founded in 2019, Jade Metal Enterprise is a dynamic
                   family-owned business that supplies quality metalworks and
                   essential tools for the telecom industry. Our passion and
@@ -97,7 +108,7 @@
                 </p>
               </div>
             </div>
-            <div class="flex-container-two text-justify q-mx-md q-my-lg">
+            <div class="flex-container-two text-justify">
               <p class="q-pa-md text-justify q-mx-xl">
                 Customer satisfaction lies at the heart of our business
                 philosophy. We believe in fostering strong relationships with
@@ -107,7 +118,7 @@
                 ensuring successful and efficient outcomes.
               </p>
             </div>
-            <div class="flex-container-three text-justify q-mx-md q-my-lg">
+            <div class="flex-container-three text-justify">
               <p class="q-pa-md q-mx-xl text-justify">
                 We look forward to serving our clients with the same passion and
                 dedication that defines Jade Metal Enterprise. Thank you for
