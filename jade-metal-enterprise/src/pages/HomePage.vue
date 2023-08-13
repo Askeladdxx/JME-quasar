@@ -85,43 +85,53 @@
                 <div class="about-container">
                   <div class="flex-container-one">
                     <div class="about-text-container q-pa-lg">
-                      <h1 class="text-bold h-title text-center q-my-none">
-                        About us
-                      </h1>
-                      <h5 class="text-bold w-title text-white">
-                        Welcome to Jade Metal Enterprise - Your Trusted Partner
-                        in Telecom Metalworks!
-                      </h5>
-                      <p class="text-justify">
-                        Founded in 2019, Jade Metal Enterprise is a dynamic
-                        family-owned business that supplies quality metalworks
-                        and essential tools for the telecom industry. Our
-                        passion and commitment to excellence have allowed us to
-                        quickly establish ourselves as a reliable player in the
-                        telecom supply market. At Jade Metal Enterprise, we
-                        understand the critical role that telecom infrastructure
-                        plays in connecting communities and driving progress.
-                        Our mission is to provide telecom companies, including
-                        industry giants like PLDT, Globe, and Fibr, with the
-                        high-grade materials they need to build and maintain
-                        robust networks.
-                      </p>
+                      <div class="background"></div>
+                      <div class="text">
+                        <h1
+                          class="text-bold h-title text-center q-my-none text-justify q-mx-xl"
+                        >
+                          About us
+                        </h1>
+                        <h5
+                          class="text-bold w-title text-white text-justify q-mx-xl q-my-xm"
+                        >
+                          Welcome to Jade Metal Enterprise - Your Trusted
+                          Partner in Telecom Metalworks!
+                        </h5>
+                        <p class="text-justify q-pa-md q-mx-xl">
+                          Founded in 2019, Jade Metal Enterprise is a dynamic
+                          family-owned business that supplies quality metalworks
+                          and essential tools for the telecom industry. Our
+                          passion and commitment to excellence have allowed us
+                          to quickly establish ourselves as a reliable player in
+                          the telecom supply market. At Jade Metal Enterprise,
+                          we understand the critical role that telecom
+                          infrastructure plays in connecting communities and
+                          driving progress. Our mission is to provide telecom
+                          companies, including industry giants like PLDT, Globe,
+                          and Fibr, with the high-grade materials they need to
+                          build and maintain robust networks.
+                        </p>
+                      </div>
                     </div>
                   </div>
                   <div class="flex-container-two text-justify">
-                    <p class="q-pa-md text-justify q-mx-xl">
-                      Customer satisfaction lies at the heart of our business
-                      philosophy. We believe in fostering strong relationships
-                      with our clients and working closely with them to
-                      understand their unique requirements. This collaborative
-                      approach allows us to tailor solutions that precisely fit
-                      their project needs, ensuring successful and efficient
-                      outcomes. We look forward to serving our clients with the
-                      same passion and dedication that defines Jade Metal
-                      Enterprise. Thank you for choosing Jade Metal Enterprise
-                      as your telecom supply partner. Let's build a connected
-                      and prosperous future together!
-                    </p>
+                    <div class="background"></div>
+                    <div class="text">
+                      <p class="q-pa-md text-justify q-mx-xl">
+                        Customer satisfaction lies at the heart of our business
+                        philosophy. We believe in fostering strong relationships
+                        with our clients and working closely with them to
+                        understand their unique requirements. This collaborative
+                        approach allows us to tailor solutions that precisely
+                        fit their project needs, ensuring successful and
+                        efficient outcomes. We look forward to serving our
+                        clients with the same passion and dedication that
+                        defines Jade Metal Enterprise. Thank you for choosing
+                        Jade Metal Enterprise as your telecom supply partner.
+                        Let's build a connected and prosperous future together!
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
