@@ -197,6 +197,43 @@
               </div>
             </div>
           </section>
+          <section>
+            <div class="sec-4">
+              <div class="company-header"></div>
+              <div class="company-logos">
+                <div v-for="company in companyLogo" :key="company.id">
+                  <q-img
+                    :src="company.logo"
+                    spinner-color="primary"
+                    spinner-size="82px"
+                    class="logo"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="sec-5">
+              <div class="contact-us q-pa-md">
+                <h1>HOW TO REACH US?</h1>
+                <div class="warehouse-one">
+                  <h4>Caloocan Warehouse</h4>
+                  <h5>1278 Avocado Street Brgy. 178 Camarin, Caloocan City</h5>
+                </div>
+                <div class="warehouse-two">
+                  <h4>Pampanga Warehouse</h4>
+                  <h5>Brgy. Maliwalu, Bacolor Pampanga</h5>
+                  <h6>(In front of Maliwalu Public Cemetery)</h6>
+                </div>
+
+                <div class="contacts">
+                  <h4><q-icon name="call" />09159017838</h4>
+                  <h4><q-icon name="call" />09382325267</h4>
+                  <h4><q-icon name="mail" />jademetal17@gmail.com</h4>
+                </div>
+              </div>
+            </div>
+          </section>
           <footer>
             <div class="footer-container">
               <div class="text-white footer-title">
