@@ -322,7 +322,7 @@
   </q-layout>
 </template>
 
-<style>
+<style lang="scss">
 @import "./styles/HomePage.scss";
 </style>
 <script src="./scripts/HomePage"></script>
