@@ -216,6 +216,6 @@
 </template>
 
 <style>
-@import "./styles/HomePage.scss";
+@import "./styles/HomePage.css";
 </style>
 <script src="./scripts/HomePage"></script>
