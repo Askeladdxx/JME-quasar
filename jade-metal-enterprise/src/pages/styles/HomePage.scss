@@ -91,18 +91,16 @@ footer {
 /* homepage */
 
 .sec-1 {
+  position: relative;
   min-height: 100vh;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-
   .background-video {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-height: 100vh;
-    min-width: 200vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
   }
   .company-intro {
     height: 80vh;
@@ -284,8 +282,6 @@ footer {
   }
 }
 
-@media screen and (max-width: 1400px) {
-}
 @media screen and (max-width: 1200px) {
   .sec-1 .landing-container .company-intro {
     .company-name {
