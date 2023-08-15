@@ -170,6 +170,7 @@
                 </div>
               </div>
             </div>
+            q
           </section>
           <section>
             <div class="sec-4">
@@ -180,20 +181,20 @@
                     v-for="card in productCards"
                     :key="card.id"
                     flat
-                    class="product-card q-mb-lg text-center q-ma-none"
+                    class="product-card text-center q-mb-sm"
                   >
-                    <q-card-section>
-                      <q-img class="card-image" :src="card.image" />
-                    </q-card-section>
-                    <q-card-section class="card-name">
-                      <h5
-                        class="text-bold q-py-none q-my-md text-center text-white"
-                      >
-                        {{ card.name }}
-                      </h5>
-                    </q-card-section>
-                    <q-card-section>
-                      <h5>{{ card.size }}</h5>
+                    <q-img class="card-image q-ma-none" :src="card.image" />
+
+                    <q-card-section class="card-name q-pt-sm">
+                      <div class="label-container">
+                        <label
+                          class="text-bold text-center text-white flex flex-center"
+                        >
+                          {{ card.name }}
+                          <br />
+                          {{ card.extname }}
+                        </label>
+                      </div>
                     </q-card-section>
                   </q-card>
                 </div>

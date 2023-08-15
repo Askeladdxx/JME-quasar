@@ -268,15 +268,21 @@ footer {
       margin: 20px;
       border-radius: 15px;
       margin: 0 auto;
+      .q-card {
+        height: 370px;
+        width: 300px;
+      }
 
       .product-card {
         background-color: #aa0000;
         border-radius: 15px;
       }
       .card-image {
-        border-radius: 15px;
         width: 300px;
         height: 300px;
+      }
+      .card-name label {
+        font-size: 18px;
       }
     }
   }
@@ -416,14 +422,18 @@ footer {
     }
     .products {
       .product-container {
+        .q-card {
+          height: 160px;
+          width: 120px;
+        }
         .product-card {
           .card-image {
             height: 130px;
-            width: 130px;
+            width: 120px;
           }
-          .card-name h5 {
-            font-size: 12px;
-            margin-top: none;
+          .card-name label {
+            font-size: 8px;
+            line-height: 9px;
           }
         }
       }
@@ -518,10 +528,6 @@ footer {
           .card-image {
             height: 120px;
             width: 120px;
-          }
-          .card-name h5 {
-            font-size: 12px;
-            margin-top: none;
           }
         }
       }
