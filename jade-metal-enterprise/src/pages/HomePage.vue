@@ -173,7 +173,7 @@
           </section>
           <section>
             <div class="sec-4">
-              <div class="products q-pa-md">
+              <div class="products">
                 <h2 class="text-bold text-center text-red-10">Products</h2>
                 <div class="product-container flex flex-center justify-evenly">
                   <q-card
@@ -201,22 +201,26 @@
             </div>
           </section>
           <section>
-            <div class="sec-4">
-              <div class="company-header"></div>
-              <div class="company-logos">
+            <div class="sec-5">
+              <div class="company-header bg-red-8 q-pa-md">
+                <h1 class="text-center text-white">Major Company Partners</h1>
+              </div>
+
+              <div class="company-logos row justify-evenly">
                 <div v-for="company in companyLogo" :key="company.id">
                   <q-img
                     :src="company.logo"
                     spinner-color="primary"
                     spinner-size="82px"
-                    class="logo"
+                    class="logo q-ma-md"
                   />
                 </div>
               </div>
+              <div class="bottom-color bg-red q-pa-md"></div>
             </div>
           </section>
           <section>
-            <div class="sec-5">
+            <div class="sec-6">
               <div class="contact-us q-pa-md">
                 <h1>HOW TO REACH US?</h1>
                 <div class="warehouse-one">

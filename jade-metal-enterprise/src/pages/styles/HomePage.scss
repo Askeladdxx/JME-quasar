@@ -281,6 +281,16 @@ footer {
     }
   }
 }
+.sec-5 {
+  .company-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .logo {
+      width: 20rem;
+    }
+  }
+}
 
 @media screen and (max-width: 1200px) {
   .sec-1 .landing-container .company-intro {
