@@ -192,6 +192,9 @@
                         {{ card.name }}
                       </h5>
                     </q-card-section>
+                    <q-card-section>
+                      <h5>{{ card.size }}</h5>
+                    </q-card-section>
                   </q-card>
                 </div>
               </div>

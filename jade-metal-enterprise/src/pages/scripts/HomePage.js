@@ -111,7 +111,8 @@ export default {
           id: 9,
           image:
             "https://preformed.com/media/com_eshop/products/resized/Cat.%20No.%20GDE-1104%20%20GDE-1107%20GUY-GRIP%20Dead-ends1-max-1200x1200.png",
-          name: "Guy Grip (all sizes)",
+          name: "Guy Grip",
+          size: "All sizes",
         },
         {
           id: 10,
@@ -127,13 +128,15 @@ export default {
           id: 12,
           image:
             "https://hubbellcdn.com/prodimage1200/HPS_ID_GC14101_PRODIMAGE_1200.jpg",
-          name: "Grounding Clamp Top Set",
+          name: "Grounding Clamp",
+          size: "Top Set",
         },
         {
           id: 13,
           image:
             "https://hubbellcdn.com/prodimage1200/HPS_PPHID_251054_PRODIMAGE_1200.jpg",
-          name: "Strand Clamp Bottom Set",
+          name: "Strand Clamp",
+          size: "Bottom Set",
         },
         {
           id: 14,
@@ -151,19 +154,22 @@ export default {
           id: 16,
           image:
             "https://www.daytaifiberoptic.com/Content/uploads/2022451740/20220902153016d20a67e55a94473a8edbd9a3fb6785d1.png",
-          name: "Nap Box and Closure",
+          name: "Nap Box and",
+          size: "Closure",
         },
         {
           id: 17,
           image:
             "https://5.imimg.com/data5/IT/FR/NP/SELLER-65040356/flexible-hdpe-pipe-roll.jpg",
-          name: "HDPE Pipe (all sizes)",
+          name: "HDPE Pipe",
+          size: "All sizes",
         },
         {
           id: 18,
           image:
             "https://image.made-in-china.com/2f0j00AsCiOMLzkpbP/Telecom-PVC-Adhesive-Tape-for-Wrapping-Below-600V.webp",
-          name: "Adhesive Tapes (any size)",
+          name: "Adhesive Tapes",
+          size: "Any sizes",
         },
         {
           id: 19,
@@ -174,7 +180,8 @@ export default {
         {
           id: 20,
           image: "https://m.media-amazon.com/images/I/613BAx-bHSL.jpg",
-          name: "Manhole cover (any size)",
+          name: "Manhole cover",
+          size: "Any sizes",
         },
       ],
     };
