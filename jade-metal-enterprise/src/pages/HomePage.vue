@@ -173,7 +173,7 @@
           </section>
           <section>
             <div class="sec-4">
-              <div class="products q-pa-md">
+              <div class="products">
                 <h2 class="text-bold text-center text-red-10">Products</h2>
                 <div class="product-container flex flex-center justify-evenly">
                   <q-card
@@ -200,7 +200,7 @@
           <section>
             <div class="sec-5">
               <div class="company-header bg-red-8 q-pa-md">
-                <h2 class="text-center text-white">Major Company Partners</h2>
+                <h1 class="text-center text-white">Major Company Partners</h1>
               </div>
 
               <div class="company-logos row justify-evenly">
