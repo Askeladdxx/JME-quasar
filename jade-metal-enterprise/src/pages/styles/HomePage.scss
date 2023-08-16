@@ -239,14 +239,14 @@ footer {
     align-items: center;
     .mission {
       .text-content {
-        max-width: 45%;
+        max-width: 50%;
         p {
           color: #4ab660;
           font-size: 15px;
         }
       }
       .m-image {
-        max-width: 50%;
+        max-width: 40%;
       }
       .m-image-sm {
         display: none;
@@ -255,7 +255,8 @@ footer {
 
     .vision {
       .text-content {
-        max-width: 45%;
+        max-width: 50%;
+        margin: 0 auto;
         p {
           color: #4ab660;
           font-size: 15px;
@@ -263,7 +264,7 @@ footer {
       }
 
       .v-image {
-        max-width: 50%;
+        max-width: 40%;
         max-height: 721px;
       }
       .v-image-sm {

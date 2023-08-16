@@ -140,7 +140,7 @@
           <section id="sec-3">
             <div class="sec-3">
               <div class="mission-vision q-pa-md">
-                <div class="mission flex flex-center">
+                <div class="mission flex flex-center q-pa-lg q-ma-md">
                   <div class="text-content q-ma-md">
                     <h1 class="text-bold">Mission</h1>
                     <q-img
@@ -169,7 +169,7 @@
                   />
                 </div>
 
-                <div class="vision flex flex-center">
+                <div class="vision flex flex-center q-pa-lg q-ma-md">
                   <q-img
                     src="./images/vision.png"
                     spinner-color="primary"
