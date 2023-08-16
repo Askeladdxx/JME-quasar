@@ -3,7 +3,7 @@
     <q-page-container>
       <q-page>
         <div class="Contacts">
-          <header>
+          <header class="header-contacts">
             <div class="navbar-container">
               <a href="" class="logo-container">
                 <img

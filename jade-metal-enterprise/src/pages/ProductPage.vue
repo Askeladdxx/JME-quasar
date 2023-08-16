@@ -3,7 +3,7 @@
     <q-page-container>
       <q-page>
         <div class="Products">
-          <header>
+          <header class="header-product">
             <div class="navbar-container">
               <a href="" class="logo-container">
                 <img
