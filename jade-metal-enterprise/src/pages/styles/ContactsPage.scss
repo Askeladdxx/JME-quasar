@@ -17,17 +17,17 @@ body {
 
   font-family: "Lora";
 }
-header {
+.header-contacts {
   background-color: #fff;
-}
-header .navbar-container {
-  margin: 0 auto;
-  padding: 10px 20px;
-  max-width: 1440px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #fff;
+  .navbar-container {
+    margin: 0 auto;
+    padding: 10px 20px;
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+  }
 }
 header .navbar-container .logo-container {
   position: relative;
