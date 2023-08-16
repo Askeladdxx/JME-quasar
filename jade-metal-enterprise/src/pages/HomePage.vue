@@ -93,7 +93,7 @@
                           About us
                         </h1>
                         <h5
-                          class="text-bold w-title text-white text-justify q-mx-xl q-my-xm"
+                          class="text-bold w-title text-white text-justify q-my-xm"
                         >
                           Welcome to Jade Metal Enterprise - Your Trusted
                           Partner in Telecom Metalworks!
@@ -202,42 +202,44 @@
             </div>
           </section>
           <section>
-            <div class="view-more">
-              <h2 class="text-bold q-ma-md q-pa-md">Wanna know more?</h2>
+            <div class="view-more q-pa-md q-ma-md">
+              <label class="text-bold q-ma-md text-center"
+                >Want to know more?</label
+              >
 
-              <div class="flex flex-center q-pa-md">
-                <q-card class="my-card q-ma-md">
+              <div class="product-container flex flex-center q-pa-md">
+                <q-card class="product-card q-ma-sm">
+                  <img src="./images/products.png" alt="" />
                   <q-card-section>
                     <div class="text-h6 text-bold">Check our products!</div>
-                    <div class="text-subtitle2">We provide emer!</div>
+                    <div class="text-subtitle2">View our telecom products!</div>
                   </q-card-section>
-                  <q-card-section>
+                  <q-card-section class="row justify-end">
                     <q-btn
-                      color="Dark"
                       label="See more"
                       @click="onClick"
                       rounded
                       outline
                       no-caps
-                      size="20px"
                       to="/products"
                     />
                   </q-card-section>
                 </q-card>
-                <q-card class="my-card q-ma-md">
+                <q-card class="company-card q-ma-sm">
+                  <img src="./images/partners.png" alt="" />
                   <q-card-section>
                     <div class="text-h6 text-bold">Major Company Partners</div>
-                    <div class="text-subtitle2">by John Doe</div>
+                    <div class="text-subtitle2">
+                      View our major company partners!
+                    </div>
                   </q-card-section>
-                  <q-card-section>
+                  <q-card-section class="row justify-end">
                     <q-btn
-                      color="dark"
                       label="See more"
                       @click="onClick"
                       outline
                       rounded
                       no-caps
-                      size="20px"
                       to="/partners"
                     />
                   </q-card-section>
