@@ -17,7 +17,9 @@ body {
 
   font-family: "Lora";
 }
-
+header {
+  background-color: #fff;
+}
 header .navbar-container {
   margin: 0 auto;
   padding: 10px 20px;
@@ -25,8 +27,7 @@ header .navbar-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  color: #fff;
+  background-color: #fff;
 }
 header .navbar-container .logo-container {
   position: relative;

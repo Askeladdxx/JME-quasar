@@ -3,7 +3,7 @@
     <q-page-container>
       <q-page>
         <div class="Home">
-          <section>
+          <section id="sec-1">
             <div class="sec-1">
               <video
                 src="./videos/background.mp4"
@@ -79,7 +79,7 @@
               </div>
             </div>
           </section>
-          <section>
+          <section id="sec-2">
             <div class="sec-2">
               <div class="about-us">
                 <div class="about-container">
@@ -137,10 +137,10 @@
               </div>
             </div>
           </section>
-          <section>
+          <section id="sec-3">
             <div class="sec-3">
               <div class="mission-vision q-pa-md">
-                <div class="mission q-ma-md q-pa-md">
+                <div class="mission">
                   <h1 class="text-bold">Mission</h1>
                   <p>
                     Our mission at Jade Metal Enterprise is to empower the
@@ -170,79 +170,14 @@
                 </div>
               </div>
             </div>
-            q
           </section>
           <section>
-            <div class="sec-4">
-              <div class="products">
-                <h2 class="text-bold text-center text-red-10">Products</h2>
-                <div class="product-container flex flex-center justify-evenly">
-                  <q-card
-                    v-for="card in productCards"
-                    :key="card.id"
-                    flat
-                    class="product-card text-center q-mb-sm"
-                  >
-                    <q-img class="card-image q-ma-none" :src="card.image" />
-
-                    <q-card-section class="card-name q-pt-sm">
-                      <div class="label-container">
-                        <label
-                          class="text-bold text-center text-white flex flex-center"
-                        >
-                          {{ card.name }}
-                          <br />
-                          {{ card.extname }}
-                        </label>
-                      </div>
-                    </q-card-section>
-                  </q-card>
-                </div>
-              </div>
+            <div class="view-more">
+              <div></div>
             </div>
           </section>
-          <section>
-            <div class="sec-5">
-              <div class="company-header bg-red-8 q-pa-md">
-                <h1 class="text-center text-white">Major Company Partners</h1>
-              </div>
 
-              <div class="company-logos row justify-evenly">
-                <div v-for="company in companyLogo" :key="company.id">
-                  <q-img
-                    :src="company.logo"
-                    spinner-color="primary"
-                    spinner-size="82px"
-                    class="logo q-ma-md"
-                  />
-                </div>
-              </div>
-              <div class="bottom-color bg-red q-pa-md"></div>
-            </div>
-          </section>
-          <section>
-            <div class="sec-6">
-              <div class="contact-us q-pa-md">
-                <h1>HOW TO REACH US?</h1>
-                <div class="warehouse-one">
-                  <h4>Caloocan Warehouse</h4>
-                  <h5>1278 Avocado Street Brgy. 178 Camarin, Caloocan City</h5>
-                </div>
-                <div class="warehouse-two">
-                  <h4>Pampanga Warehouse</h4>
-                  <h5>Brgy. Maliwalu, Bacolor Pampanga</h5>
-                  <h6>(In front of Maliwalu Public Cemetery)</h6>
-                </div>
-
-                <div class="contacts">
-                  <h4><q-icon name="call" />09159017838</h4>
-                  <h4><q-icon name="call" />09382325267</h4>
-                  <h4><q-icon name="mail" />jademetal17@gmail.com</h4>
-                </div>
-              </div>
-            </div>
-          </section>
-          <footer>
+          <footer class="bg-dark">
             <div class="footer-container">
               <div class="text-white footer-title">
                 <img
@@ -263,4 +198,4 @@
 <style lang="scss">
 @import "./styles/HomePage.scss";
 </style>
-<script src="./scripts/HomePage"></script>
+<script defer src="./scripts/HomePage"></script>

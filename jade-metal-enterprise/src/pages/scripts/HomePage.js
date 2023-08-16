@@ -4,8 +4,8 @@ export default {
   setup() {
     const navbuttons = [
       { label: "Home", route: "/" },
-      { label: "Mission & Vision", route: "/mission-vision" },
       { label: "Products", route: "/products" },
+      { label: "Partners", route: "/partners" },
       { label: "Contact Us", route: "/contact-us" },
     ];
 

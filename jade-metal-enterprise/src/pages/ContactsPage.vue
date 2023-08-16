@@ -1,0 +1,98 @@
+<template>
+  <q-layout>
+    <q-page-container>
+      <q-page>
+        <div class="Contacts">
+          <header>
+            <div class="navbar-container">
+              <a href="" class="logo-container">
+                <img
+                  src="./images/JME-logo.png"
+                  alt="logo"
+                  class="logo-image q-my-sm"
+                />
+              </a>
+              <div class="navbtn-container">
+                <div class="navbtn-visibility">
+                  <q-btn
+                    v-for="button in navbuttons"
+                    :key="button.label"
+                    dense
+                    no-caps
+                    flat
+                    class="btn-navbar q-pa-xs text-bold q-mx-md text-dark"
+                    size="20px"
+                    :to="button.route"
+                  >
+                    {{ button.label }}
+                  </q-btn>
+                </div>
+
+                <div class="btn-group-visibility">
+                  <q-btn-dropdown class="nav-btn-group">
+                    <q-list>
+                      <q-item
+                        v-for="button in navbuttons"
+                        :key="button.label"
+                        dense
+                        no-caps
+                        flat
+                        class="btn-navbar q-pa-xs text-bold q-mx-md"
+                        :to="button.route"
+                      >
+                        <q-item-section>
+                          <q-item-label class="btn-label text-h5">{{
+                            button.label
+                          }}</q-item-label>
+                        </q-item-section>
+                      </q-item>
+                    </q-list>
+                  </q-btn-dropdown>
+                </div>
+              </div>
+            </div>
+          </header>
+          <section id="sec-6">
+            <div class="sec-6">
+              <div class="contact-us q-pa-md">
+                <h2 class="text-bold">HOW TO REACH US?</h2>
+                <div class="warehouse-one">
+                  <h4 class="text-bold">Caloocan Warehouse</h4>
+                  <h5>1278 Avocado Street Brgy. 178 Camarin, Caloocan City</h5>
+                </div>
+                <div class="warehouse-two">
+                  <h4 class="text-bold">Pampanga Warehouse</h4>
+                  <h5>Brgy. Maliwalu, Bacolor Pampanga</h5>
+                  <h5>(In front of Maliwalu Public Cemetery)</h5>
+                </div>
+
+                <div class="contacts">
+                  <h4><q-icon name="call" />09159017838</h4>
+                  <h4><q-icon name="call" />09382325267</h4>
+                  <h4><q-icon name="mail" />jademetal17@gmail.com</h4>
+                </div>
+              </div>
+            </div>
+          </section>
+          <footer class="bg-dark">
+            <div class="footer-container">
+              <div class="text-white footer-title">
+                <img
+                  src="./images/JME-logo.png"
+                  alt="logo"
+                  class="footer-logo q-my-sm"
+                />
+                <h4>Jade Metal Enterprise</h4>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </q-page>
+    </q-page-container>
+  </q-layout>
+</template>
+
+<style lang="scss">
+@import "./styles/ContactsPage.scss";
+</style>
+<script src="./scripts/HomePage"></script>
