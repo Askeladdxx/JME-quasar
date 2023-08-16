@@ -235,13 +235,40 @@ footer {
 
   .mission-vision {
     color: #fff;
-    display: flex;
-    align-items: center; /* Vertically center align items */
+    display: grid;
+    align-items: center;
+    .mission {
+      .text-content {
+        max-width: 45%;
+        p {
+          color: #4ab660;
+          font-size: 15px;
+        }
+      }
+      .m-image {
+        max-width: 50%;
+      }
+      .m-image-sm {
+        display: none;
+      }
+    }
 
-    .mission p,
-    .vision p {
-      color: #4ab660;
-      font-size: 15px;
+    .vision {
+      .text-content {
+        max-width: 45%;
+        p {
+          color: #4ab660;
+          font-size: 15px;
+        }
+      }
+
+      .v-image {
+        max-width: 50%;
+        max-height: 721px;
+      }
+      .v-image-sm {
+        display: none;
+      }
     }
   }
   .mission-vision .mission h1,
@@ -258,54 +285,10 @@ footer {
     text-align: justify;
   }
 }
-.sec-4 {
-  background-color: #fff;
-  position: relative;
-  min-height: 100vh;
-  .products {
-    .product-container {
-      border-radius: 20px;
-      flex-direction: row;
-      margin: 20px;
-      border-radius: 15px;
-      margin: 0 auto;
-      .q-card {
-        height: 370px;
-        width: 300px;
-      }
-
-      .product-card {
-        background-color: #aa0000;
-        border-radius: 15px;
-      }
-      .card-image {
-        width: 300px;
-        height: 300px;
-      }
-      .card-name label {
-        font-size: 18px;
-      }
-    }
-  }
-}
-.sec-5 {
-  background-color: #fff;
-  .company-header {
-    background-color: #0e3115;
-  }
-  .company-logos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 60px;
-    .logo {
-      width: 20rem;
-    }
-  }
-  .bottom-color {
-    height: 15vh;
-    background-color: #0e3115;
-  }
+.view-more {
+  display: grid;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 1200px) {
@@ -413,6 +396,32 @@ footer {
       .mission p,
       .vision p {
         font-size: 22px;
+      }
+      .mission {
+        .text-content {
+          max-width: 768px;
+          .m-image-sm {
+            display: grid;
+            border-radius: 20px;
+            margin-bottom: 10px;
+          }
+        }
+        .m-image {
+          display: none;
+        }
+      }
+      .vision {
+        .text-content {
+          max-width: 768px;
+          .v-image-sm {
+            display: grid;
+            border-radius: 20px;
+            margin-bottom: 10px;
+          }
+        }
+        .v-image {
+          display: none;
+        }
       }
       .mission .m-image,
       .vision .v-image {

@@ -140,40 +140,109 @@
           <section id="sec-3">
             <div class="sec-3">
               <div class="mission-vision q-pa-md">
-                <div class="mission">
-                  <h1 class="text-bold">Mission</h1>
-                  <p>
-                    Our mission at Jade Metal Enterprise is to empower the
-                    telecom industry with top-quality metalworks and essential
-                    supplies, facilitating seamless connectivity and fostering
-                    progress. Through our dedication to innovation,
-                    craftsmanship, and customer-centricity, we aim to be the
-                    trusted partner that drives the expansion of robust and
-                    reliable telecom infrastructure, connecting communities and
-                    empowering the world.
-                  </p>
+                <div class="mission flex flex-center">
+                  <div class="text-content q-ma-md">
+                    <h1 class="text-bold">Mission</h1>
+                    <q-img
+                      src="./images/mission.png"
+                      spinner-color="primary"
+                      spinner-size="82px"
+                      class="m-image-sm"
+                    />
+                    <p>
+                      Our mission at Jade Metal Enterprise is to empower the
+                      telecom industry with top-quality metalworks and essential
+                      supplies, facilitating seamless connectivity and fostering
+                      progress. Through our dedication to innovation,
+                      craftsmanship, and customer-centricity, we aim to be the
+                      trusted partner that drives the expansion of robust and
+                      reliable telecom infrastructure, connecting communities
+                      and empowering the world.
+                    </p>
+                  </div>
+
+                  <q-img
+                    src="./images/mission.png"
+                    spinner-color="primary"
+                    spinner-size="82px"
+                    class="m-image"
+                  />
                 </div>
 
-                <div class="vision q-ma-md q-pa-md">
-                  <h1 class="text-bold">Vision</h1>
-                  <p>
-                    At Jade Metal Enterprise, our vision is to be the leading
-                    provider of telecom metalworks and supplies, setting new
-                    industry benchmarks for quality and service. We aspire to
-                    continuously innovate and adapt, leveraging cutting-edge
-                    technologies to meet the evolving needs of the telecom
-                    sector. With unwavering commitment to sustainability and
-                    excellence, we envision a future where Jade Metal Enterprise
-                    plays a pivotal role in building a connected and inclusive
-                    world, where communication knows no bounds.
-                  </p>
+                <div class="vision flex flex-center">
+                  <q-img
+                    src="./images/vision.png"
+                    spinner-color="primary"
+                    spinner-size="82px"
+                    class="v-image"
+                  />
+
+                  <div class="text-content q-ma-md">
+                    <h1 class="text-bold">Vision</h1>
+                    <q-img
+                      src="./images/vision.png"
+                      spinner-color="primary"
+                      spinner-size="82px"
+                      class="v-image-sm"
+                    />
+                    <p>
+                      At Jade Metal Enterprise, our vision is to be the leading
+                      provider of telecom metalworks and supplies, setting new
+                      industry benchmarks for quality and service. We aspire to
+                      continuously innovate and adapt, leveraging cutting-edge
+                      technologies to meet the evolving needs of the telecom
+                      sector. With unwavering commitment to sustainability and
+                      excellence, we envision a future where Jade Metal
+                      Enterprise plays a pivotal role in building a connected
+                      and inclusive world, where communication knows no bounds.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </section>
           <section>
             <div class="view-more">
-              <div></div>
+              <h2 class="text-bold q-ma-md q-pa-md">Wanna know more?</h2>
+
+              <div class="flex flex-center q-pa-md">
+                <q-card class="my-card q-ma-md">
+                  <q-card-section>
+                    <div class="text-h6 text-bold">Check our products!</div>
+                    <div class="text-subtitle2">We provide emer!</div>
+                  </q-card-section>
+                  <q-card-section>
+                    <q-btn
+                      color="Dark"
+                      label="See more"
+                      @click="onClick"
+                      rounded
+                      outline
+                      no-caps
+                      size="20px"
+                      to="/products"
+                    />
+                  </q-card-section>
+                </q-card>
+                <q-card class="my-card q-ma-md">
+                  <q-card-section>
+                    <div class="text-h6 text-bold">Major Company Partners</div>
+                    <div class="text-subtitle2">by John Doe</div>
+                  </q-card-section>
+                  <q-card-section>
+                    <q-btn
+                      color="dark"
+                      label="See more"
+                      @click="onClick"
+                      outline
+                      rounded
+                      no-caps
+                      size="20px"
+                      to="/partners"
+                    />
+                  </q-card-section>
+                </q-card>
+              </div>
             </div>
           </section>
 
