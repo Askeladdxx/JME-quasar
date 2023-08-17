@@ -71,6 +71,24 @@
                   <h4><q-icon name="call" />09382325267</h4>
                   <h4><q-icon name="mail" />jademetal17@gmail.com</h4>
                 </div>
+                <q-card>
+                  <q-card-section class="q-pt-md q-pb-md">
+                    <q-form @submit="submitForm">
+                      <q-input
+                        v-model="email"
+                        label="Email"
+                        type="email"
+                        outlined
+                      />
+                      <q-btn
+                        type="submit"
+                        label="Submit"
+                        color="primary"
+                        class="q-mt-md"
+                      />
+                    </q-form>
+                  </q-card-section>
+                </q-card>
               </div>
             </div>
           </section>
@@ -95,4 +113,4 @@
 <style lang="scss">
 @import "./styles/ContactsPage.scss";
 </style>
-<script src="./scripts/HomePage"></script>
+<script src="./scripts/ContactsPage"></script>
