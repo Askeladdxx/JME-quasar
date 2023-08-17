@@ -61,13 +61,17 @@
                 </h2>
               </div>
 
-              <div class="company-logos row justify-evenly q-pa-md">
-                <div v-for="company in companyLogo" :key="company.id">
+              <div class="company-logos row justify-evenly">
+                <div
+                  v-for="company in companyLogo"
+                  :key="company.id"
+                  class="q-ma-md q-pa-md"
+                >
                   <q-img
                     :src="company.logo"
                     spinner-color="primary"
                     spinner-size="82px"
-                    class="logo q-ma-md"
+                    class="logo"
                   />
                 </div>
               </div>
