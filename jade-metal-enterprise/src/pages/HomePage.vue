@@ -201,9 +201,14 @@
           </section>
           <section>
             <div class="view-more q-pa-md q-ma-md">
-              <label class="text-bold q-ma-md text-center"
-                >Want to know more?</label
-              >
+              <div>
+                <label class="text-center"
+                  >Telecommunication forms the vital network that binds our
+                  local communities together. At Jade Metal Enterprise, our
+                  solutions, known within our region, hold the power to elevate
+                  your projects beyond our borders.
+                </label>
+              </div>
 
               <div class="product-container flex flex-center q-pa-md">
                 <q-card class="product-card q-ma-sm">
