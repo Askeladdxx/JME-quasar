@@ -71,7 +71,6 @@
                   <h4><q-icon name="call" />09382325267</h4>
                   <h4><q-icon name="mail" />jademetal17@gmail.com</h4>
                 </div>
-                <q-google-map> </q-google-map>
               </div>
             </div>
           </section>

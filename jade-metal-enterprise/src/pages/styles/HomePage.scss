@@ -160,7 +160,7 @@ footer {
       .background {
         background: #000000;
         position: absolute;
-        opacity: 35%;
+        opacity: 50%;
         top: 0;
         left: 0;
         height: 100%;
@@ -191,7 +191,7 @@ footer {
       .background {
         background: #000000;
         position: absolute;
-        opacity: 35%;
+        opacity: 40%;
         top: 0;
         left: 0;
         height: 100%;
@@ -402,6 +402,8 @@ footer {
         }
         .w-title {
           font-size: 20px;
+
+          justify-content: center;
         }
 
         .flex-container-one {

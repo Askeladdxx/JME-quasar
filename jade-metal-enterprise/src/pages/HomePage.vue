@@ -87,13 +87,11 @@
                     <div class="about-text-container q-pa-lg">
                       <div class="background"></div>
                       <div class="text">
-                        <h1
-                          class="text-bold h-title text-center q-my-none text-justify q-mx-xl"
-                        >
+                        <h1 class="text-bold h-title q-my-none text-justify">
                           About us
                         </h1>
                         <h5
-                          class="text-bold w-title text-white text-justify q-my-xm"
+                          class="text-bold w-title text-white text-center q-my-sm"
                         >
                           Welcome to Jade Metal Enterprise - Your Trusted
                           Partner in Telecom Metalworks!
@@ -222,7 +220,6 @@
                   >
                     <q-btn
                       label="See more"
-                      @click="onClick"
                       rounded
                       outline
                       no-caps
@@ -243,7 +240,6 @@
                   <q-card-section class="row justify-end">
                     <q-btn
                       label="See more"
-                      @click="onClick"
                       outline
                       rounded
                       no-caps

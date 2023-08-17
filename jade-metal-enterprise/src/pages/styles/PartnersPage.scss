@@ -105,8 +105,9 @@ footer {
   }
   .company-logos {
     display: flex;
-
-    margin: 60px;
+    max-width: 1440px;
+    justify-content: center;
+    margin: 0 auto;
     .logo {
       width: 20rem;
     }
@@ -152,8 +153,10 @@ footer {
     .company-header h2 {
       font-size: 30px;
     }
-    .company-logos .logo {
-      width: 17rem;
+    .company-logos {
+      .logo {
+        width: 17rem;
+      }
     }
   }
 
