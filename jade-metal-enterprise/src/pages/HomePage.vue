@@ -200,9 +200,9 @@
             </div>
           </section>
           <section>
-            <div class="view-more q-pa-md q-ma-md">
-              <div>
-                <label class="text-center"
+            <div class="view-more">
+              <div class="text-container text-center">
+                <label class="text-red-10"
                   >Telecommunication forms the vital network that binds our
                   local communities together. At Jade Metal Enterprise, our
                   solutions, known within our region, hold the power to elevate
@@ -210,8 +210,51 @@
                 </label>
               </div>
 
-              <div class="product-container flex flex-center q-pa-md">
-                <q-card class="product-card q-ma-sm">
+              <div class="card-container flex q-ma-md">
+                <div class="overlay"></div>
+                <div class="product-container">
+                  <div class="text-content">
+                    <label class="text-h6 text-bold"
+                      >Explore Metal Mastery</label
+                    >
+                    <div class="text-subtitle1">
+                      Discover our exceptional metal products. Click below to
+                      explore the full catalog
+                    </div>
+                    <q-btn
+                      color="white"
+                      rounded
+                      outline
+                      no-caps
+                      label="See more"
+                      to="/products"
+                      size="25px"
+                      class="q-ma-md"
+                    />
+                  </div>
+                </div>
+                <div class="company-container">
+                  <div class="text-content">
+                    <label class="text-h6 text-bold"
+                      >Our Trusted Partners</label
+                    >
+                    <div class="text-subtitle1">
+                      Powering Progress Together. Click below to see the valued
+                      company partners.
+                    </div>
+                    <q-btn
+                      color="white"
+                      rounded
+                      outline
+                      no-caps
+                      label="See more"
+                      to="/partners"
+                      size="25px"
+                      class="q-ma-md"
+                    />
+                  </div>
+                </div>
+                <!-- <q-card class="product-card q-ma-sm">
                   <img src="./images/products.png" alt="" />
                   <q-card-section>
                     <div class="text-h6 text-bold">Explore Metal Mastery</div>
@@ -231,8 +274,8 @@
                       to="/products"
                     />
                   </q-card-section>
-                </q-card>
-                <q-card class="company-card q-ma-sm">
+                </q-card> -->
+                <!-- <q-card class="company-card q-ma-sm">
                   <img src="./images/partners.png" alt="" />
                   <q-card-section>
                     <div class="text-h6 text-bold">Our Trusted Partners</div>
@@ -251,7 +294,7 @@
                       to="/partners"
                     />
                   </q-card-section>
-                </q-card>
+                </q-card> -->
               </div>
             </div>
           </section>
