@@ -62,12 +62,12 @@ section {
 }
 footer {
   position: relative;
-  min-height: 40vh;
+  min-height: 35vh;
   .footer-container {
+    display: flex;
     margin: 0 auto;
     padding: 10px 20px;
     max-width: 1440px;
-    display: flex;
     align-items: center;
     justify-content: space-between;
     .footer-title {
@@ -81,6 +81,21 @@ footer {
     .footer-title .footer-logo {
       height: 40px;
       width: 70px;
+    }
+  }
+  .footer-text {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    label {
+      font-size: 30px;
+      color: rgb(213, 208, 208);
+    }
+    h6 {
+      color: rgb(213, 208, 208);
     }
   }
 }
@@ -174,7 +189,7 @@ footer {
         height: 100%;
       }
     }
-    .flex-container-one .about-text-container h5,
+    .flex-container-one .about-text-container label,
     h1,
     p {
       display: flex;
@@ -300,6 +315,9 @@ footer {
   .text-container {
     max-width: 1440px;
     margin: 0 auto;
+    label {
+      font-size: 35px;
+    }
   }
   .card-container {
     width: 100%;
@@ -320,7 +338,7 @@ footer {
           color: #fff;
         }
         .text-subtitle1 {
-          font-size: 20px;
+          font-size: 25px;
           color: #fff;
         }
       }
@@ -331,9 +349,6 @@ footer {
     .company-container {
       background-image: url(./images/partners.png);
     }
-  }
-  .text-container label {
-    font-size: 30px;
   }
 
   .product-card,
@@ -515,6 +530,16 @@ footer {
     }
     .card-container {
       flex-direction: column;
+    }
+  }
+  footer {
+    .footer-text {
+      label {
+        font-size: 25px;
+      }
+      h6 {
+        font-size: 18px;
+      }
     }
   }
 }

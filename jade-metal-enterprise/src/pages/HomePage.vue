@@ -90,12 +90,12 @@
                         <h1 class="text-bold h-title q-my-none text-justify">
                           About us
                         </h1>
-                        <h5
+                        <label
                           class="text-bold w-title text-white text-center q-my-sm"
                         >
                           Welcome to Jade Metal Enterprise - Your Trusted
                           Partner in Telecom Metalworks!
-                        </h5>
+                        </label>
                         <p class="text-justify q-pa-md q-mx-xl">
                           Founded in 2019, Jade Metal Enterprise is a dynamic
                           family-owned business that supplies quality metalworks
@@ -200,13 +200,11 @@
             </div>
           </section>
           <section>
-            <div class="view-more">
+            <div class="view-more bg-white">
               <div class="text-container text-center">
-                <label class="text-red-10"
-                  >Telecommunication forms the vital network that binds our
-                  local communities together. At Jade Metal Enterprise, our
-                  solutions, known within our region, hold the power to elevate
-                  your projects beyond our borders.
+                <label class="text-red-10 text-bold q-my-none">
+                  Telecommunication forms the vital network that binds our local
+                  communities together.
                 </label>
               </div>
 
@@ -219,7 +217,7 @@
                     >
                     <div class="text-subtitle1">
                       Discover our exceptional metal products. Click below to
-                      explore the full catalog
+                      explore the full catalog.
                     </div>
                     <q-btn
                       color="white"
@@ -309,6 +307,24 @@
                 />
                 <h4>Jade Metal Enterprise</h4>
               </div>
+            </div>
+            <div class="footer-text">
+              <div>
+                <label class="text-bold">Contact Us</label>
+                <h6 class="q-my-sm"><q-icon name="call" />09159017838</h6>
+                <h6 class="q-my-sm"><q-icon name="call" />09382325267</h6>
+                <label class="text-bold">Email us:</label>
+                <h6 class="q-my-sm">
+                  <q-icon name="mail" />jademetal17@gmail.com
+                </h6>
+              </div>
+            </div>
+            <q-separator inset color="grey" />
+
+            <div class="flex flex-center q-ma-md">
+              <label class="text-center text-white"
+                >All rights reserved. 2023</label
+              >
             </div>
           </footer>
         </div>
