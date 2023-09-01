@@ -1,5 +1,10 @@
 <template>
-  <q-layout>
+  <q-layout
+    view="hHr LpR fFr"
+    container
+    style="min-height: 100vh"
+    class="shadow-2 rounded-borders"
+  >
     <q-page-container>
       <q-page>
         <div class="Home">
@@ -30,14 +35,14 @@
                         dense
                         no-caps
                         flat
-                        class="btn-navbar q-pa-xs text-bold q-mx-md"
+                        class="btn-navbar q-pa-xs text-bold q-mx-md text-white"
                         size="20px"
                         :to="button.route"
                       >
                         {{ button.label }}
                       </q-btn>
                     </div>
-                    <div class="btn-group-visibility">
+                    <!-- <div class="">
                       <q-btn-dropdown class="nav-btn-group">
                         <q-list>
                           <q-item
@@ -57,10 +62,48 @@
                           </q-item>
                         </q-list>
                       </q-btn-dropdown>
+                    </div> -->
+                  </div>
+                  <div class="btn-group-visibility">
+                    <div>
+                      <q-toolbar>
+                        <q-btn
+                          flat
+                          @click="drawerRight = !drawerRight"
+                          round
+                          dense
+                          icon="menu"
+                        />
+                      </q-toolbar>
+                      <q-drawer
+                        side="right"
+                        v-model="drawerRight"
+                        bordered
+                        :width="200"
+                        :breakpoint="500"
+                        :class="$q.dark.isActive ? 'bg-grey-9' : 'bg-grey-3'"
+                        ><q-scroll-area class="fit">
+                          <div class="q-pa-sm">
+                            <q-btn
+                              v-for="button in navbuttons"
+                              :key="button.label"
+                              dense
+                              no-caps
+                              flat
+                              class="btn-navbar q-pa-xs text-bold q-mx-md"
+                              size="20px"
+                              :to="button.route"
+                            >
+                              {{ button.label }}
+                            </q-btn>
+                          </div>
+                        </q-scroll-area>
+                      </q-drawer>
                     </div>
                   </div>
                 </div>
               </header>
+
               <div
                 class="landing-container"
                 style="text-align: center; display: inline block"
