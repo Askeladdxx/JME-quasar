@@ -315,7 +315,7 @@ footer {
   .text-container {
     max-width: 1440px;
     margin: 0 auto;
-    label {
+    h5 {
       font-size: 35px;
     }
   }
@@ -544,6 +544,10 @@ footer {
   }
 }
 @media screen and (max-width: 480px) {
+  header .navbar-container .logo-image {
+    height: 50px;
+    width: 80px;
+  }
   .sec-1 .landing-container .company-intro {
     .company-name {
       font-size: 30px;
@@ -621,7 +625,7 @@ footer {
     }
   }
   .view-more {
-    .text-container label {
+    .text-container h5 {
       font-size: 18px;
     }
     .product-card,

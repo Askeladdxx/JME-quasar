@@ -202,10 +202,10 @@
           <section>
             <div class="view-more bg-white">
               <div class="text-container text-center">
-                <label class="text-red-10 text-bold q-my-none">
+                <h5 class="text-red-10 text-bold">
                   Telecommunication forms the vital network that binds our local
                   communities together.
-                </label>
+                </h5>
               </div>
 
               <div class="card-container flex q-ma-md">
@@ -323,7 +323,7 @@
 
             <div class="flex flex-center q-ma-md">
               <label class="text-center text-white"
-                >All rights reserved. 2023</label
+                >© 2023 Jade Metal Enterprise. All rights reserved.</label
               >
             </div>
           </footer>
