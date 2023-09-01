@@ -61,7 +61,7 @@ section {
   }
 }
 footer {
-  min-height: 50vh;
+  min-height: 70vh;
   .footer-container {
     display: flex;
     margin: 0 auto;
@@ -143,7 +143,7 @@ footer {
     .about-container {
       .flex-container-one {
         position: relative; /* Set the container as a positioning context */
-        background-image: url(https://images.pexels.com/photos/6426230/pexels-photo-6426230.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-image: url(./images/bg-1.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -152,7 +152,7 @@ footer {
 
       .flex-container-two {
         position: relative;
-        background-image: url(https://images.pexels.com/photos/14356121/pexels-photo-14356121.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-image: url(./images/bg-2.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;

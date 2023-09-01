@@ -111,7 +111,7 @@
             </div>
             <q-separator inset color="grey" />
 
-            <div class="flex flex-center q-pa-lg">
+            <div class="flex flex-center q-pa-md">
               <label class="text-center text-white"
                 >© 2023 Jade Metal Enterprise. All rights reserved.</label
               >

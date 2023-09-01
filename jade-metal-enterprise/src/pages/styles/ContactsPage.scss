@@ -50,16 +50,29 @@ section {
   min-height: 100vh;
 }
 
+.sec-6 {
+  .contact-us {
+    .warehouse-container {
+      max-width: 600px;
+      margin: 0 auto;
+      .contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+}
 footer {
-  position: relative;
-  min-height: 40vh;
+  min-height: 50vh;
   .footer-container {
+    display: flex;
     margin: 0 auto;
     padding: 10px 20px;
     max-width: 1440px;
-    display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+
     .footer-title {
       display: flex;
       justify-content: center;
@@ -71,6 +84,23 @@ footer {
     .footer-title .footer-logo {
       height: 40px;
       width: 70px;
+    }
+  }
+  .footer-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #fff;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    label {
+      font-size: 30px;
+      color: rgb(213, 208, 208);
+    }
+    h6 {
+      color: rgb(213, 208, 208);
     }
   }
 }
