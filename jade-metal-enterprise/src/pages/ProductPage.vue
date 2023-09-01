@@ -85,7 +85,7 @@
               </div>
             </div>
           </section>
-          <footer class="bg-dark">
+          <footer class="bg-dark text-white">
             <div class="footer-container">
               <div class="text-white footer-title">
                 <img
@@ -95,6 +95,26 @@
                 />
                 <h4>Jade Metal Enterprise</h4>
               </div>
+            </div>
+            <div class="footer-text">
+              <div class="text-center">
+                <label class="text-bold">Contact Us:</label>
+                <h6 class="q-my-sm"><q-icon name="call" />09159017838</h6>
+                <h6 class="q-my-sm"><q-icon name="call" />09382325267</h6>
+              </div>
+              <div class="text-center">
+                <label class="text-bold">Email us:</label>
+                <h6 class="q-my-sm">
+                  <q-icon name="mail" />jademetal17@gmail.com
+                </h6>
+              </div>
+            </div>
+            <q-separator inset color="grey" />
+
+            <div class="flex flex-center q-pa-lg">
+              <label class="text-center text-white"
+                >© 2023 Jade Metal Enterprise. All rights reserved.</label
+              >
             </div>
           </footer>
         </div>

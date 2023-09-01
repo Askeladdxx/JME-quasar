@@ -200,7 +200,7 @@
             </div>
           </section>
           <section>
-            <div class="view-more bg-white">
+            <div class="view-more">
               <div class="text-container text-center">
                 <h5 class="text-red-10 text-bold">
                   Telecommunication forms the vital network that binds our local
@@ -309,10 +309,12 @@
               </div>
             </div>
             <div class="footer-text">
-              <div>
-                <label class="text-bold">Contact Us</label>
+              <div class="text-center">
+                <label class="text-bold">Contact Us:</label>
                 <h6 class="q-my-sm"><q-icon name="call" />09159017838</h6>
                 <h6 class="q-my-sm"><q-icon name="call" />09382325267</h6>
+              </div>
+              <div class="text-center">
                 <label class="text-bold">Email us:</label>
                 <h6 class="q-my-sm">
                   <q-icon name="mail" />jademetal17@gmail.com
@@ -321,7 +323,7 @@
             </div>
             <q-separator inset color="grey" />
 
-            <div class="flex flex-center q-ma-md">
+            <div class="flex flex-center q-pa-lg">
               <label class="text-center text-white"
                 >© 2023 Jade Metal Enterprise. All rights reserved.</label
               >

@@ -61,15 +61,15 @@ section {
   }
 }
 footer {
-  position: relative;
-  min-height: 35vh;
+  min-height: 50vh;
   .footer-container {
     display: flex;
     margin: 0 auto;
     padding: 10px 20px;
     max-width: 1440px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+
     .footer-title {
       display: flex;
       justify-content: center;
@@ -85,7 +85,9 @@ footer {
   }
   .footer-text {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
     color: #fff;
     max-width: 1440px;
     margin: 0 auto;
@@ -441,6 +443,13 @@ footer {
       height: 80px;
     }
   }
+  .sec-1 {
+    .landing-container {
+      .text-content {
+        font-size: 23px;
+      }
+    }
+  }
   .sec-2 {
     .about-us {
       .about-container {
@@ -524,9 +533,12 @@ footer {
     }
   }
   .view-more {
-    .text-container label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    .text-container h5 {
       font-size: 20px;
-      text-align: justify;
     }
     .card-container {
       flex-direction: column;
@@ -554,7 +566,7 @@ footer {
       display: block;
     }
     .text-content {
-      font-size: 15px;
+      font-size: 14px;
       margin: 0px;
     }
   }
@@ -583,7 +595,7 @@ footer {
           font-size: 30x;
         }
         .w-title {
-          font-size: 15px;
+          font-size: 14px;
         }
 
         .flex-container-one {
