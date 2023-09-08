@@ -73,6 +73,7 @@
                           round
                           dense
                           icon="menu"
+                          size="25px"
                         />
                       </q-toolbar>
                       <q-drawer
@@ -90,7 +91,7 @@
                               dense
                               no-caps
                               flat
-                              class="btn-navbar q-pa-xs text-bold q-mx-md"
+                              class="btn-navbar q-pa-xs text-bold q-mx-md text-dark"
                               size="20px"
                               :to="button.route"
                             >

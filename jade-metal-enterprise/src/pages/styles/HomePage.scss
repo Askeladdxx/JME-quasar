@@ -428,11 +428,14 @@ footer {
   }
 }
 @media screen and (max-width: 768px) {
+  .btn-group-visibility {
+    display: block;
+    color: white;
+  }
   header .navbar-container .navbtn-container .navbtn-visibility {
     display: none;
   }
-  header .navbar-container .navbtn-container .btn-group-visibility {
-    display: block;
+  header .navbar-container .navbtn-container {
     .nav-btn-group {
       margin: 10px auto;
       width: 80px;
