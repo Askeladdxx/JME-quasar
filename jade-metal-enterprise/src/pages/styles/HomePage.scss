@@ -650,3 +650,34 @@ footer {
     }
   }
 }
+@media screen and (max-width: 360px) {
+  .view-more {
+    .text-container h5 {
+      font-size: 15px;
+    }
+    .card-container {
+      .product-container,
+      .company-container {
+        height: 200px;
+        .text-content {
+          label {
+            font-size: 20px;
+          }
+          .text-subtitle1 {
+            font-size: 15px;
+          }
+          .q-btn {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+  .footer-container {
+    .footer-title {
+      h4 {
+        font-size: 22px;
+      }
+    }
+  }
+}

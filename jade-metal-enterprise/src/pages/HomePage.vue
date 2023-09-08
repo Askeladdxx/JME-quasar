@@ -251,7 +251,7 @@
                 </h5>
               </div>
 
-              <div class="card-container flex q-ma-md">
+              <div class="card-container flex">
                 <div class="overlay"></div>
                 <div class="product-container">
                   <div class="text-content">
