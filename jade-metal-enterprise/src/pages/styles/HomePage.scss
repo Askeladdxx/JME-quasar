@@ -4,6 +4,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding: 10rem;
+  overflow-x: hidden;
 }
 section {
   min-height: 100vh;
@@ -17,8 +18,10 @@ body {
 
   font-family: "Lora";
 }
-
-header .navbar-container {
+.header {
+  background-color: #023020;
+}
+.header .navbar-container {
   margin: 0 auto;
   padding: 10px 20px;
   max-width: 1440px;
@@ -26,19 +29,19 @@ header .navbar-container {
   align-items: center;
   justify-content: space-between;
 }
-header .navbar-container .logo-container {
+.header .navbar-container .logo-container {
   position: relative;
   display: flex;
   align-items: center;
 }
-header .navbar-container .logo-image {
+.header .navbar-container .logo-image {
   height: 70px;
   width: 110px;
 }
-header .navbar-container .logo-name {
+.header .navbar-container .logo-name {
   font-size: 30px;
 }
-header a {
+.header a {
   color: #333;
   text-decoration: none;
 }
@@ -59,7 +62,7 @@ section {
   }
 }
 footer {
-  min-height: 70vh;
+  min-height: 40vh;
   .footer-container {
     display: flex;
     margin: 0 auto;
@@ -432,10 +435,10 @@ footer {
     display: block;
     color: white;
   }
-  header .navbar-container .navbtn-container .navbtn-visibility {
+  .header .navbar-container .navbtn-container .navbtn-visibility {
     display: none;
   }
-  header .navbar-container .navbtn-container {
+  .header .navbar-container .navbtn-container {
     .nav-btn-group {
       margin: 10px auto;
       width: 80px;
@@ -555,7 +558,7 @@ footer {
   }
 }
 @media screen and (max-width: 480px) {
-  header .navbar-container .logo-image {
+  .header .navbar-container .logo-image {
     height: 50px;
     width: 80px;
   }
@@ -569,10 +572,10 @@ footer {
       margin: 0px;
     }
   }
-  header .navbar-container .navbtn-container .navbtn-visibility {
+  .header .navbar-container .navbtn-container .navbtn-visibility {
     display: none;
   }
-  header .navbar-container .navbtn-container .btn-group-visibility {
+  .header .navbar-container .navbtn-container .btn-group-visibility {
     display: block;
     .nav-btn-group {
       margin: 10px auto;

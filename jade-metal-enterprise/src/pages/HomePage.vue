@@ -3,7 +3,7 @@
     view="hHr LpR fFr"
     container
     style="min-height: 100vh"
-    class="shadow-2 rounded-borders"
+    class="shadow-2"
   >
     <q-page-container>
       <q-page>
@@ -18,7 +18,7 @@
                 loop
                 class="background-video"
               ></video>
-              <header>
+              <q-header reveal elevated class="header">
                 <div class="navbar-container">
                   <a href="" class="logo-container">
                     <img
@@ -42,27 +42,6 @@
                         {{ button.label }}
                       </q-btn>
                     </div>
-                    <!-- <div class="">
-                      <q-btn-dropdown class="nav-btn-group">
-                        <q-list>
-                          <q-item
-                            v-for="button in navbuttons"
-                            :key="button.label"
-                            dense
-                            no-caps
-                            flat
-                            class="btn-navbar q-pa-xs text-bold q-mx-md"
-                            :to="button.route"
-                          >
-                            <q-item-section>
-                              <q-item-label class="btn-label text-h5">{{
-                                button.label
-                              }}</q-item-label>
-                            </q-item-section>
-                          </q-item>
-                        </q-list>
-                      </q-btn-dropdown>
-                    </div> -->
                   </div>
                   <div class="btn-group-visibility">
                     <div>
@@ -103,7 +82,7 @@
                     </div>
                   </div>
                 </div>
-              </header>
+              </q-header>
 
               <div
                 class="landing-container"
