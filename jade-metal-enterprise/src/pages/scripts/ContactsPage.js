@@ -11,6 +11,7 @@ export default {
 
     return {
       navbuttons,
+      drawerRight: ref(false),
     };
   },
   data() {

@@ -275,47 +275,6 @@
                     />
                   </div>
                 </div>
-                <!-- <q-card class="product-card q-ma-sm">
-                  <img src="./images/products.png" alt="" />
-                  <q-card-section>
-                    <div class="text-h6 text-bold">Explore Metal Mastery</div>
-                    <div class="text-subtitle2">
-                      Discover our exceptional metal products. Click below to
-                      explore the full catalog
-                    </div>
-                  </q-card-section>
-                  <q-card-section
-                    class="button-container row justify-end q-ma-none"
-                  >
-                    <q-btn
-                      label="See more"
-                      rounded
-                      outline
-                      no-caps
-                      to="/products"
-                    />
-                  </q-card-section>
-                </q-card> -->
-                <!-- <q-card class="company-card q-ma-sm">
-                  <img src="./images/partners.png" alt="" />
-                  <q-card-section>
-                    <div class="text-h6 text-bold">Our Trusted Partners</div>
-                    <div class="text-subtitle2">
-                      Powering Progress Together. Click below to see the valued
-                      company partners.
-                    </div>
-                    <div class="text-subtitle2"></div>
-                  </q-card-section>
-                  <q-card-section class="row justify-end">
-                    <q-btn
-                      label="See more"
-                      outline
-                      rounded
-                      no-caps
-                      to="/partners"
-                    />
-                  </q-card-section>
-                </q-card> -->
               </div>
             </div>
           </section>

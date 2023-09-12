@@ -1,9 +1,14 @@
 <template>
-  <q-layout>
+  <q-layout
+    view="hHr LpR fFr"
+    container
+    style="min-height: 100vh"
+    class="shadow-2"
+  >
     <q-page-container>
       <q-page>
         <div class="Contacts">
-          <header class="header-contacts">
+          <q-header reveal elevated class="header">
             <div class="navbar-container">
               <a href="" class="logo-container">
                 <img
@@ -20,38 +25,54 @@
                     dense
                     no-caps
                     flat
-                    class="btn-navbar q-pa-xs text-bold q-mx-md text-dark"
+                    class="btn-navbar q-pa-xs text-bold q-mx-md text-white"
                     size="20px"
                     :to="button.route"
                   >
                     {{ button.label }}
                   </q-btn>
                 </div>
-
-                <div class="btn-group-visibility">
-                  <q-btn-dropdown class="nav-btn-group">
-                    <q-list>
-                      <q-item
-                        v-for="button in navbuttons"
-                        :key="button.label"
-                        dense
-                        no-caps
-                        flat
-                        class="btn-navbar q-pa-xs text-bold q-mx-md"
-                        :to="button.route"
-                      >
-                        <q-item-section>
-                          <q-item-label class="btn-label text-h5">{{
-                            button.label
-                          }}</q-item-label>
-                        </q-item-section>
-                      </q-item>
-                    </q-list>
-                  </q-btn-dropdown>
+              </div>
+              <div class="btn-group-visibility">
+                <div>
+                  <q-toolbar>
+                    <q-btn
+                      flat
+                      @click="drawerRight = !drawerRight"
+                      round
+                      dense
+                      icon="menu"
+                      size="25px"
+                    />
+                  </q-toolbar>
+                  <q-drawer
+                    side="right"
+                    v-model="drawerRight"
+                    bordered
+                    :width="200"
+                    :breakpoint="500"
+                    :class="$q.dark.isActive ? 'bg-grey-9' : 'bg-grey-3'"
+                    ><q-scroll-area class="fit">
+                      <div class="q-pa-sm">
+                        <q-btn
+                          v-for="button in navbuttons"
+                          :key="button.label"
+                          dense
+                          no-caps
+                          flat
+                          class="btn-navbar q-pa-xs text-bold q-mx-md text-dark"
+                          size="20px"
+                          :to="button.route"
+                        >
+                          {{ button.label }}
+                        </q-btn>
+                      </div>
+                    </q-scroll-area>
+                  </q-drawer>
                 </div>
               </div>
             </div>
-          </header>
+          </q-header>
           <section id="sec-6">
             <div class="sec-6">
               <div class="contact-us q-pa-md">
@@ -92,19 +113,6 @@
                 />
                 <h4>Jade Metal Enterprise</h4>
               </div>
-            </div>
-            <div class="footer-text">
-              <!-- <div class="text-center">
-                <label class="text-bold">Contact Us:</label>
-                <h6 class="q-my-sm"><q-icon name="call" />09159017838</h6>
-                <h6 class="q-my-sm"><q-icon name="call" />09382325267</h6>
-              </div>
-              <div class="text-center">
-                <label class="text-bold">Email us:</label>
-                <h6 class="q-my-sm">
-                  <q-icon name="mail" />jademetal17@gmail.com
-                </h6>
-              </div> -->
             </div>
             <q-separator inset color="grey" />
 

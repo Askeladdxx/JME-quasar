@@ -29,23 +29,33 @@ body {
     background-color: #fff;
   }
 }
-header .navbar-container .logo-container {
+.header {
+  background-color: #023020;
+}
+.header .navbar-container {
+  margin: 0 auto;
+  padding: 10px 20px;
+  max-width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .navbar-container .logo-container {
   position: relative;
   display: flex;
   align-items: center;
 }
-header .navbar-container .logo-image {
+.header .navbar-container .logo-image {
   height: 70px;
   width: 110px;
 }
-header .navbar-container .logo-name {
+.header .navbar-container .logo-name {
   font-size: 30px;
 }
-header a {
+.header a {
   color: #333;
   text-decoration: none;
 }
-
 section {
   min-height: 100vh;
 }
@@ -102,11 +112,7 @@ footer {
     }
   }
 }
-.nav-btn-group {
-  background-color: green;
-  color: #fff;
-  border-radius: 100%;
-}
+
 .btn-label {
   color: black;
 }
@@ -116,8 +122,8 @@ footer {
 
 .sec-5 {
   background-color: #fff;
-  .company-header {
-    background-color: #0e3115;
+  .company-header h2 {
+    color: #0e3115;
   }
   .company-logos {
     display: flex;
@@ -130,7 +136,7 @@ footer {
   }
   .bottom-color {
     height: 15vh;
-    background-color: #0e3115;
+    background-color: #6b1111;
   }
 }
 
@@ -140,11 +146,14 @@ footer {
 @media screen and (max-width: 1024px) {
 }
 @media screen and (max-width: 768px) {
-  header .navbar-container .navbtn-container .navbtn-visibility {
+  .btn-group-visibility {
+    display: block;
+    color: white;
+  }
+  .header .navbar-container .navbtn-container .navbtn-visibility {
     display: none;
   }
-  header .navbar-container .navbtn-container .btn-group-visibility {
-    display: block;
+  .header .navbar-container .navbtn-container {
     .nav-btn-group {
       margin: 10px auto;
       width: 80px;
@@ -154,10 +163,15 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-  header .navbar-container .navbtn-container .navbtn-visibility {
+  .header .navbar-container .logo-image {
+    height: 50px;
+    width: 80px;
+  }
+
+  .header .navbar-container .navbtn-container .navbtn-visibility {
     display: none;
   }
-  header .navbar-container .navbtn-container .btn-group-visibility {
+  .header .navbar-container .navbtn-container .btn-group-visibility {
     display: block;
     .nav-btn-group {
       margin: 10px auto;

@@ -1,9 +1,14 @@
 <template>
-  <q-layout>
+  <q-layout
+    view="hHr LpR fFr"
+    container
+    style="min-height: 100vh"
+    class="shadow-2"
+  >
     <q-page-container>
       <q-page>
         <div class="Products">
-          <header class="header-partners">
+          <q-header reveal elevated class="header">
             <div class="navbar-container">
               <a href="" class="logo-container">
                 <img
@@ -20,43 +25,58 @@
                     dense
                     no-caps
                     flat
-                    class="btn-navbar q-pa-xs text-bold q-mx-md text-dark"
+                    class="btn-navbar q-pa-xs text-bold q-mx-md text-white"
                     size="20px"
                     :to="button.route"
                   >
                     {{ button.label }}
                   </q-btn>
                 </div>
-
-                <div class="btn-group-visibility">
-                  <q-btn-dropdown class="nav-btn-group">
-                    <q-list>
-                      <q-item
-                        v-for="button in navbuttons"
-                        :key="button.label"
-                        dense
-                        no-caps
-                        flat
-                        class="btn-navbar q-pa-xs text-bold q-mx-md"
-                        :to="button.route"
-                      >
-                        <q-item-section>
-                          <q-item-label class="btn-label text-h5">{{
-                            button.label
-                          }}</q-item-label>
-                        </q-item-section>
-                      </q-item>
-                    </q-list>
-                  </q-btn-dropdown>
+              </div>
+              <div class="btn-group-visibility">
+                <div>
+                  <q-toolbar>
+                    <q-btn
+                      flat
+                      @click="drawerRight = !drawerRight"
+                      round
+                      dense
+                      icon="menu"
+                      size="25px"
+                    />
+                  </q-toolbar>
+                  <q-drawer
+                    side="right"
+                    v-model="drawerRight"
+                    bordered
+                    :width="200"
+                    :breakpoint="500"
+                    :class="$q.dark.isActive ? 'bg-grey-9' : 'bg-grey-3'"
+                    ><q-scroll-area class="fit">
+                      <div class="q-pa-sm">
+                        <q-btn
+                          v-for="button in navbuttons"
+                          :key="button.label"
+                          dense
+                          no-caps
+                          flat
+                          class="btn-navbar q-pa-xs text-bold q-mx-md text-dark"
+                          size="20px"
+                          :to="button.route"
+                        >
+                          {{ button.label }}
+                        </q-btn>
+                      </div>
+                    </q-scroll-area>
+                  </q-drawer>
                 </div>
               </div>
             </div>
-          </header>
-
+          </q-header>
           <section id="sec-5">
             <div class="sec-5">
               <div class="company-header q-pa-md">
-                <h2 class="text-center text-white text-bold q-ma-md">
+                <h2 class="text-center text-bold q-ma-md">
                   Major Company Partners
                 </h2>
               </div>

@@ -4,7 +4,6 @@
 html {
   scroll-behavior: smooth;
   scroll-padding: 10rem;
-  overflow-x: hidden;
 }
 section {
   min-height: 100vh;
@@ -562,16 +561,7 @@ footer {
     height: 50px;
     width: 80px;
   }
-  .sec-1 .landing-container .company-intro {
-    .company-name {
-      font-size: 30px;
-      display: block;
-    }
-    .text-content {
-      font-size: 14px;
-      margin: 0px;
-    }
-  }
+
   .header .navbar-container .navbtn-container .navbtn-visibility {
     display: none;
   }
