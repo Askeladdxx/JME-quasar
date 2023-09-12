@@ -439,10 +439,17 @@ footer {
       height: 80px;
     }
   }
+
   .sec-1 {
     .landing-container {
       .text-content {
         font-size: 23px;
+      }
+      .company-intro {
+        .company-name {
+          font-size: 40px;
+          display: block;
+        }
       }
     }
   }
