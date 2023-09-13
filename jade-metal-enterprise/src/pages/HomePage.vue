@@ -1,11 +1,4 @@
 <template>
-  <head>
-    <meta
-      name="google-site-verification"
-      content="c6NAzXfpvfZuiQMnLkMh3KBEzQ7kuokxPemYU5WwQRY"
-    />
-  </head>
-
   <q-layout
     view="hHr LpR fFr"
     container
