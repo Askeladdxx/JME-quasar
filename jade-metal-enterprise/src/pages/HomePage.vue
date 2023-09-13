@@ -1,4 +1,8 @@
 <template>
+  <meta
+    name="google-site-verification"
+    content="c6NAzXfpvfZuiQMnLkMh3KBEzQ7kuokxPemYU5WwQRY"
+  />
   <q-layout
     view="hHr LpR fFr"
     container
