@@ -16,6 +16,10 @@ const routes = [
         path: "contact-us",
         component: () => import("pages/ContactsPage.vue"),
       },
+      {
+        path: "sitemap.xml",
+        component: () => import("pages/sitemap.xml"),
+      },
     ],
   },
 
