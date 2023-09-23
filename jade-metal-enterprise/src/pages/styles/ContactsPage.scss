@@ -63,7 +63,7 @@ section {
   }
 }
 footer {
-  min-height: 50vh;
+  min-height: 20vh;
   .footer-container {
     display: flex;
     margin: 0 auto;
@@ -85,23 +85,6 @@ footer {
       width: 70px;
     }
   }
-  .footer-text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    color: #fff;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 10px 20px;
-    label {
-      font-size: 30px;
-      color: rgb(213, 208, 208);
-    }
-    h6 {
-      color: rgb(213, 208, 208);
-    }
-  }
 }
 
 .nav-btn-group {
@@ -114,11 +97,6 @@ footer {
 }
 .btn-group-visibility {
   display: none;
-}
-
-@media screen and (max-width: 1200px) {
-}
-@media screen and (max-width: 1024px) {
 }
 
 @media screen and (max-width: 768px) {
@@ -143,16 +121,7 @@ footer {
     height: 50px;
     width: 80px;
   }
-  .sec-1 .landing-container .company-intro {
-    .company-name {
-      font-size: 30px;
-      display: block;
-    }
-    .text-content {
-      font-size: 14px;
-      margin: 0px;
-    }
-  }
+
   .header .navbar-container .navbtn-container .navbtn-visibility {
     display: none;
   }
