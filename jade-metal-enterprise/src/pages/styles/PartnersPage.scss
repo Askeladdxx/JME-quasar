@@ -8,10 +8,7 @@ html {
 section {
   min-height: 100vh;
 }
-:root {
-  --primary: #1aac83;
-  --error: #e7195a;
-}
+
 body {
   background: #f1f1f1;
 
@@ -60,17 +57,6 @@ section {
   min-height: 100vh;
 }
 
-.landing-container {
-  .company-name {
-    position: relative;
-    font-size: 70px;
-    align-items: center;
-  }
-  .text-content {
-    position: relative;
-    margin: 15px;
-  }
-}
 footer {
   min-height: 50vh;
   .footer-container {
@@ -140,11 +126,6 @@ footer {
   }
 }
 
-@media screen and (max-width: 1200px) {
-}
-
-@media screen and (max-width: 1024px) {
-}
 @media screen and (max-width: 768px) {
   .btn-group-visibility {
     display: block;
