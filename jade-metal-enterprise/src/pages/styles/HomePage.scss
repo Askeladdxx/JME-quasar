@@ -13,7 +13,7 @@ section {
   --error: #e7195a;
 }
 body {
-  background: #f1f1f1;
+  background-color: #18191a;
 
   font-family: "Lora";
 }
@@ -109,7 +109,6 @@ footer {
 /* homepage */
 
 .sec-1 {
-  background-color: #18191a;
   position: relative;
   min-height: 100vh;
   .background-video {
@@ -303,6 +302,7 @@ footer {
   }
 }
 .view-more {
+  background: #f1f1f1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
