@@ -164,12 +164,7 @@
                 <div class="mission flex flex-center q-pa-lg q-ma-md">
                   <div class="text-content q-ma-md">
                     <h1 class="text-bold">Mission</h1>
-                    <img
-                      src="./images/mission.png"
-                      spinner-color="primary"
-                      spinner-size="82px"
-                      class="m-image-sm"
-                    />
+                    <img src="./images/mission.png" class="m-image-sm" />
                     <p>
                       Our mission at Jade Metal Enterprise is to empower the
                       telecom industry with top-quality metalworks and essential

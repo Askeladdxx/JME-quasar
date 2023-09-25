@@ -523,11 +523,9 @@ footer {
           display: none;
         }
       }
-      .mission .m-image,
-      .vision .v-image {
-        border-radius: 20px;
-        max-width: 50%; /* Adjust the width of the image as needed */
-        margin: 20px; /* Add some spacing between image and text */
+      .mission .m-image-sm,
+      .vision .v-image-sm {
+        max-width: 100%; /* Adjust the width of the image as needed */
 
         .flex-container-one p {
           flex: 1 1 auto;
@@ -618,11 +616,10 @@ footer {
       .vision p {
         font-size: 15px;
       }
-      .mission .m-image,
-      .vision .v-image {
+      .mission .m-image-sm,
+      .vision .v-image-sm {
         border-radius: 20px;
-        max-width: 50%; /* Adjust the width of the image as needed */
-        margin: 20px; /* Add some spacing between image and text */
+        max-width: 100%; /* Adjust the width of the image as needed */
 
         .flex-container-one p {
           flex: 1 1 auto;
