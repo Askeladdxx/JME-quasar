@@ -86,7 +86,7 @@
                     flat
                     class="product-card text-center q-ma-sm"
                   >
-                    <q-img class="card-image q-ma-none" :src="card.image" />
+                    <img class="card-image q-ma-none" :src="card.image" />
 
                     <q-card-section class="card-name q-pt-sm">
                       <div class="label-container">

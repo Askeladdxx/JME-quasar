@@ -87,7 +87,7 @@
                   :key="company.id"
                   class="q-ma-md q-pa-md"
                 >
-                  <q-img
+                  <img
                     :src="company.logo"
                     spinner-color="primary"
                     spinner-size="82px"

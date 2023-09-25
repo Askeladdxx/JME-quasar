@@ -17,7 +17,7 @@
                 muted
                 loop
                 class="background-video"
-              ></video>
+              />
               <q-header reveal elevated class="header">
                 <div class="navbar-container">
                   <a href="" class="logo-container">
