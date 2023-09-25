@@ -164,7 +164,7 @@
                 <div class="mission flex flex-center q-pa-lg q-ma-md">
                   <div class="text-content q-ma-md">
                     <h1 class="text-bold">Mission</h1>
-                    <q-img
+                    <img
                       src="./images/mission.png"
                       spinner-color="primary"
                       spinner-size="82px"
@@ -182,7 +182,7 @@
                     </p>
                   </div>
 
-                  <q-img
+                  <img
                     src="./images/mission.png"
                     spinner-color="primary"
                     spinner-size="82px"
@@ -191,7 +191,7 @@
                 </div>
 
                 <div class="vision flex flex-center q-pa-lg q-ma-md">
-                  <q-img
+                  <img
                     src="./images/vision.png"
                     spinner-color="primary"
                     spinner-size="82px"
@@ -200,7 +200,7 @@
 
                   <div class="text-content q-ma-md">
                     <h1 class="text-bold">Vision</h1>
-                    <q-img
+                    <img
                       src="./images/vision.png"
                       spinner-color="primary"
                       spinner-size="82px"
