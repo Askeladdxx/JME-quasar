@@ -316,12 +316,13 @@ footer {
   }
   .card-container {
     max-width: 1400px;
-    min-height: 600px;
+    height: 600px;
 
     .product-container,
     .company-container {
       border-radius: 20px;
-      width: 600px;
+      flex: 1;
+      padding: 20px;
       display: flex;
       align-items: center;
       text-align: center;
