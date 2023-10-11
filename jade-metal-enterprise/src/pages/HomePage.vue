@@ -226,9 +226,8 @@
                 </h5>
               </div>
 
-              <div class="card-container flex">
-                <div class="overlay"></div>
-                <div class="product-container">
+              <div class="card-container flex flex-around justify-around">
+                <div class="product-container q-ma-lg">
                   <div class="text-content">
                     <label class="text-h6 text-bold"
                       >Explore Metal Mastery</label
@@ -249,7 +248,7 @@
                     />
                   </div>
                 </div>
-                <div class="company-container">
+                <div class="company-container q-ma-lg">
                   <div class="text-content">
                     <label class="text-h6 text-bold"
                       >Our Trusted Partners</label
