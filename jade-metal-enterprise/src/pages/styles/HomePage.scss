@@ -1,0 +1,678 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Newsreader:opsz,wght@6..72,300&family=Poppins:wght@200;500&family=Signika+Negative:wght@700&display=swap");
+/* layout */
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 10rem;
+}
+section {
+  min-height: 100vh;
+}
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+body {
+  background: #f1f1f1;
+  font-family: "Lora";
+}
+.header {
+  background-color: #023020;
+}
+.header .navbar-container {
+  margin: 0 auto;
+  padding: 10px 20px;
+  max-width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .navbar-container .logo-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.header .navbar-container .logo-image {
+  height: 70px;
+  width: 110px;
+}
+.header .navbar-container .logo-name {
+  font-size: 30px;
+}
+.header a {
+  color: #333;
+  text-decoration: none;
+}
+
+section {
+  min-height: 100vh;
+  max-width: 1440px auto;
+}
+
+.landing-container {
+  .company-name {
+    position: relative;
+    font-size: 70px;
+    align-items: center;
+  }
+  .text-content {
+    position: relative;
+    margin: 15px;
+  }
+}
+footer {
+  min-height: 40vh;
+  .footer-container {
+    display: flex;
+    margin: 0 auto;
+    padding: 10px 20px;
+    max-width: 1440px;
+    align-items: center;
+    justify-content: center;
+
+    .footer-title {
+      display: flex;
+      justify-content: center;
+    }
+    .footer-title h4 {
+      margin-block: 10px;
+      margin-inline: 10px;
+    }
+    .footer-title .footer-logo {
+      height: 40px;
+      width: 70px;
+    }
+  }
+  .footer-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #fff;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    label {
+      font-size: 30px;
+      color: rgb(213, 208, 208);
+    }
+    h6 {
+      color: rgb(213, 208, 208);
+    }
+  }
+}
+
+.title {
+  font-size: 40px;
+}
+
+/* homepage */
+
+.sec-1 {
+  position: relative;
+  min-height: 100vh;
+  .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .company-intro {
+    height: 80vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.sec-2 {
+  min-height: 100vh;
+  .about-us {
+    border-radius: 15px;
+    .h-title {
+      color: #fff;
+    }
+    .w-title {
+      color: #a4b494;
+    }
+    .about-container {
+      .flex-container-one {
+        position: relative; /* Set the container as a positioning context */
+        background-image: url(./images/bg-1.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 100vh;
+      }
+
+      .flex-container-two {
+        position: relative;
+        background-image: url(./images/bg-2.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 100vh;
+      }
+
+      .about-text-container p,
+      .flex-container-two p {
+        font-size: 27px;
+        color: #fff;
+      }
+    }
+  }
+
+  .about-container {
+    color: #fff;
+    font-size: 30px;
+    .about-text-container h1 {
+      margin-top: 5%;
+    }
+    .about-text-container {
+      .background {
+        background: #000000;
+        position: absolute;
+        opacity: 50%;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+      }
+      .text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .flex-container-one .about-text-container label,
+    h1,
+    p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 1000px;
+      margin-left: auto;
+      margin-right: 2%;
+    }
+
+    .flex-container-two {
+      display: flex;
+      align-items: center;
+      .background {
+        background: #000000;
+        position: absolute;
+        opacity: 40%;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+      }
+      .text {
+        margin-left: 2%;
+        position: absolute;
+      }
+    }
+
+    .fImage-lg {
+      border-radius: 20px;
+      max-width: 50%; /* Adjust the width of the image as needed */
+
+      margin: 20px; /* Add some spacing between image and text */
+    }
+
+    .flex-container-one p {
+      flex: 1 1 auto;
+    }
+  }
+}
+
+.nav-btn-group {
+  color: #fff;
+}
+.btn-label {
+  color: black;
+}
+.btn-group-visibility {
+  display: none;
+}
+
+.sec-3 {
+  position: relative;
+  min-height: 100vh;
+  background-color: #0e3115;
+
+  .mission-vision {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .mission {
+      .text-content {
+        max-width: 50%;
+        margin: 0 auto;
+
+        p {
+          color: #4ab660;
+          font-size: 18px;
+        }
+      }
+      .m-image {
+        max-width: 40%;
+        max-height: 721px;
+      }
+      .m-image-sm {
+        display: none;
+      }
+    }
+
+    .vision {
+      .text-content {
+        max-width: 50%;
+        margin: 0 auto;
+        p {
+          color: #4ab660;
+          font-size: 18px;
+        }
+      }
+
+      .v-image {
+        max-width: 40%;
+        max-height: 721px;
+      }
+      .v-image-sm {
+        display: none;
+      }
+    }
+  }
+  .mission-vision .mission h1,
+  .mission-vision .vision h1 {
+    margin-block: 30px;
+    color: #6ce676;
+  }
+  .mission-vision .mission h1 {
+    color: #6ce676;
+  }
+}
+.view-more {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .text-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    h5 {
+      font-size: 35px;
+    }
+  }
+  .card-container {
+    max-width: 1400px;
+    height: 600px;
+
+    .product-container,
+    .company-container {
+      border-radius: 20px;
+      flex: 1;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      .text-content {
+        label {
+          font-size: 30px;
+          color: #fff;
+        }
+        .text-subtitle1 {
+          font-size: 25px;
+          color: #fff;
+        }
+      }
+    }
+    .product-container {
+      background-image: url(./images/products.png);
+    }
+    .company-container {
+      background-image: url(./images/partners.png);
+    }
+  }
+
+  .product-card,
+  .company-card {
+    width: 700px;
+    height: 650px;
+    border-radius: 20px;
+    color: #fff;
+  }
+
+  .product-card {
+    background-color: #730e0e;
+    .q-btn {
+      margin: 10px;
+      height: 50px;
+      width: 200px;
+    }
+  }
+  .company-card {
+    background-color: #0e3115;
+    .q-btn {
+      height: 50px;
+      width: 200px;
+      margin: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .sec-1 .landing-container .company-intro {
+    .company-name {
+      font-size: 55px;
+      display: block;
+    }
+  }
+  .sec-2 {
+    .about-us {
+      .about-container {
+        font-size: 15px;
+        .about-text-container p,
+        .flex-container-two p {
+          font-size: 20px;
+        }
+
+        .h-title {
+          font-size: 40px;
+        }
+        .w-title {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .sec-1 .landing-container .company-intro {
+    .company-name {
+      font-size: 55px;
+      display: block;
+    }
+  }
+  .sec-2 {
+    .about-us {
+      .about-container {
+        font-size: 15px;
+        .about-text-container p,
+        .flex-container-two p {
+          font-size: 20px;
+        }
+
+        .h-title {
+          font-size: 40px;
+        }
+        .w-title {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .btn-group-visibility {
+    display: block;
+    color: white;
+  }
+  .header .navbar-container .navbtn-container .navbtn-visibility {
+    display: none;
+  }
+  .header .navbar-container .navbtn-container {
+    .nav-btn-group {
+      margin: 10px auto;
+      width: 80px;
+      height: 80px;
+    }
+  }
+
+  .sec-1 {
+    .landing-container {
+      .text-content {
+        font-size: 23px;
+      }
+      .company-intro {
+        .company-name {
+          font-size: 40px;
+          display: block;
+        }
+      }
+    }
+  }
+  .sec-2 {
+    .about-us {
+      .about-container {
+        font-size: 15px;
+        .about-text-container p,
+        .flex-container-two p {
+          font-size: 18px;
+        }
+
+        .h-title {
+          font-size: 40px;
+        }
+        .w-title {
+          font-size: 20px;
+
+          justify-content: center;
+        }
+
+        .flex-container-one {
+          display: flex;
+          flex-direction: column;
+          .fImage-lg {
+            display: none;
+          }
+
+          .about-text-container {
+            margin-top: 10%;
+          }
+        }
+      }
+    }
+  }
+  .sec-3 {
+    .mission-vision {
+      display: flex;
+      flex-direction: column;
+      .mission h1,
+      .vision h1 {
+        font-size: 60px;
+      }
+      .mission p,
+      .vision p {
+        font-size: 22px;
+      }
+      .mission {
+        .text-content {
+          max-width: 768px;
+          .m-image-sm {
+            display: grid;
+            border-radius: 20px;
+            margin-bottom: 10px;
+          }
+        }
+        .m-image {
+          display: none;
+        }
+      }
+      .vision {
+        .text-content {
+          max-width: 768px;
+          .v-image-sm {
+            display: grid;
+            border-radius: 20px;
+            margin-bottom: 10px;
+          }
+        }
+        .v-image {
+          display: none;
+        }
+      }
+      .mission .m-image-sm,
+      .vision .v-image-sm {
+        max-width: 100%; /* Adjust the width of the image as needed */
+
+        .flex-container-one p {
+          flex: 1 1 auto;
+        }
+      }
+    }
+  }
+  .view-more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    .text-container h5 {
+      font-size: 20px;
+    }
+    .card-container {
+      flex-direction: column;
+    }
+  }
+  footer {
+    .footer-text {
+      label {
+        font-size: 25px;
+      }
+      h6 {
+        font-size: 18px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  .header .navbar-container .logo-image {
+    height: 50px;
+    width: 80px;
+  }
+
+  .header .navbar-container .navbtn-container .navbtn-visibility {
+    display: none;
+  }
+  .header .navbar-container .navbtn-container .btn-group-visibility {
+    display: block;
+    .nav-btn-group {
+      margin: 10px auto;
+      width: 60px;
+      height: 60px;
+    }
+  }
+
+  .sec-2 {
+    .about-us {
+      .about-container {
+        font-size: 15px;
+        .about-text-container p,
+        .flex-container-two p {
+          font-size: 15px;
+        }
+
+        .h-title {
+          font-size: 30x;
+        }
+        .w-title {
+          font-size: 14px;
+        }
+
+        .flex-container-one {
+          display: flex;
+          flex-direction: column;
+          .fImage-lg {
+            display: none;
+          }
+
+          .about-text-container {
+            margin-top: 10%;
+          }
+        }
+      }
+    }
+  }
+  .sec-3 {
+    .mission-vision {
+      display: flex;
+      flex-direction: column;
+      .mission h1,
+      .vision h1 {
+        font-size: 60px;
+      }
+      .mission p,
+      .vision p {
+        font-size: 15px;
+      }
+      .mission .m-image-sm,
+      .vision .v-image-sm {
+        border-radius: 20px;
+        max-width: 100%; /* Adjust the width of the image as needed */
+
+        .flex-container-one p {
+          flex: 1 1 auto;
+        }
+      }
+    }
+  }
+  .view-more {
+    .text-container h5 {
+      font-size: 18px;
+    }
+    .product-card,
+    .company-card {
+      width: 300px;
+      height: 400px;
+    }
+  }
+  .footer-container {
+    .footer-title {
+      h4 {
+        font-size: 22px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 360px) {
+  .view-more {
+    .text-container h5 {
+      font-size: 15px;
+    }
+    .card-container {
+      .product-container,
+      .company-container {
+        height: 200px;
+        .text-content {
+          label {
+            font-size: 20px;
+          }
+          .text-subtitle1 {
+            font-size: 15px;
+          }
+          .q-btn {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+  .footer-container {
+    .footer-title {
+      h4 {
+        font-size: 22px;
+      }
+    }
+  }
+}
