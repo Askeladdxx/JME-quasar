@@ -1,0 +1,319 @@
+
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Newsreader:opsz,wght@6..72,300&family=Poppins:wght@200;500&family=Signika+Negative:wght@700&display=swap");
+
+/* layout */
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 10rem;
+}
+
+section {
+  min-height: 100vh;
+}
+
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+
+body {
+  background: #f1f1f1;
+  font-family: "Lora";
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.header {
+  background-color: #023020;
+}
+
+.header .navbar-container {
+  margin: 0 auto;
+  padding: 10px 20px;
+  max-width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .navbar-container .logo-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.header .navbar-container .logo-image {
+  height: 70px;
+  width: 110px;
+}
+
+.header .navbar-container .logo-name {
+  font-size: 30px;
+}
+
+.header a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+  min-height: 50vh;
+
+  .footer-container {
+    display: flex;
+    margin: 0 auto;
+    padding: 10px 20px;
+    max-width: 1440px;
+    align-items: center;
+    justify-content: center;
+
+    .footer-title {
+      display: flex;
+      justify-content: center;
+    }
+
+    .footer-title h4 {
+      margin-block: 10px;
+      margin-inline: 10px;
+    }
+
+    .footer-title .footer-logo {
+      height: 40px;
+      width: 70px;
+    }
+  }
+
+  .footer-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #fff;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 10px 20px;
+
+    label {
+      font-size: 30px;
+      color: rgb(213, 208, 208);
+    }
+
+    h6 {
+      color: rgb(213, 208, 208);
+    }
+  }
+}
+
+/* =========================
+   NAVIGATION BUTTON
+========================= */
+
+.nav-btn-group {
+  background-color: green;
+  color: #fff;
+  border-radius: 100%;
+}
+
+.btn-label {
+  color: black;
+}
+
+.btn-group-visibility {
+  display: none;
+}
+
+/* =========================
+   SECTION 4 - PRODUCTS
+========================= */
+
+.sec-4 {
+  background-color: #fff;
+  position: relative;
+  min-height: 100vh;
+
+  .products {
+    .product-container {
+      border-radius: 20px;
+      flex-direction: row;
+      margin: 20px;
+      border-radius: 15px;
+      margin: 0 auto;
+
+      .q-card {
+        height: 370px;
+        width: 300px;
+      }
+
+      /* =========================
+         PRODUCT CARD
+      ========================= */
+
+      .product-card {
+        background-color: #aa0000;
+        border-radius: 15px;
+
+        /* Smooth hover animation */
+        transition:
+          transform 0.25s ease,
+          box-shadow 0.25s ease;
+
+        /* Cursor */
+        cursor: pointer;
+
+        /* Hover effect */
+        &:hover {
+          transform: translateY(-10px) scale(1.03);
+          box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+        }
+      }
+
+      .card-image {
+        width: 300px;
+        height: 300px;
+      }
+
+      .card-name label {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media screen and (max-width: 1024px) {
+}
+
+/* =========================
+   MOBILE / TABLET
+========================= */
+
+@media screen and (max-width: 768px) {
+  .btn-group-visibility {
+    display: block;
+    color: white;
+  }
+
+  .header .navbar-container .navbtn-container .navbtn-visibility {
+    display: none;
+  }
+
+  .header .navbar-container .navbtn-container {
+    .nav-btn-group {
+      margin: 10px auto;
+      width: 80px;
+      height: 80px;
+    }
+  }
+
+  .sec-4 {
+    .products h2 {
+      font-size: 60px;
+    }
+
+    .products {
+      .product-container {
+        .q-card {
+          height: 160px;
+          width: 120px;
+        }
+
+        .product-card {
+          .card-image {
+            height: 130px;
+            width: 120px;
+          }
+
+          .card-name label {
+            font-size: 8px;
+            line-height: 9px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media screen and (max-width: 480px) {
+  .header .navbar-container .logo-image {
+    height: 50px;
+    width: 80px;
+  }
+
+  .header .navbar-container .navbtn-container .navbtn-visibility {
+    display: none;
+  }
+
+  .header .navbar-container .navbtn-container .btn-group-visibility {
+    display: block;
+
+    .nav-btn-group {
+      margin: 10px auto;
+      width: 60px;
+      height: 60px;
+    }
+  }
+
+  .sec-4 {
+    .products h2 {
+      font-size: 50px;
+    }
+
+    .products {
+      .product-container {
+        .product-card {
+          .card-image {
+            height: 120px;
+            width: 120px;
+          }
+        }
+      }
+    }
+  }
+
+  .footer-container {
+    .footer-title {
+      h4 {
+        font-size: 22px;
+      }
+    }
+  }
+}
+
+/* =========================
+   HOVER ONLY FOR MOUSE
+========================= */
+
+/*
+  Phones and tablets don't have a traditional cursor,
+  so the hover animation only applies to devices
+  that actually support mouse hovering.
+*/
+
+@media (hover: hover) and (pointer: fine) {
+  .sec-4 {
+    .products {
+      .product-container {
+        .product-card {
+          &:hover {
+            transform: translateY(-10px) scale(1.03);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+          }
+        }
+      }
+    }
+  }
+}
